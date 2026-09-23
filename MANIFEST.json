@@ -1,0 +1,21 @@
+{
+  "repository": "wmaquantiq/ai-search-visibility-italia",
+  "edition": "2026",
+  "dataset_version": "v1.0",
+  "doi": "10.5281/zenodo.22640375",
+  "note": "Companion repository manifest. Canonical frozen dataset remains the DOI-backed Zenodo v1.0 release.",
+  "key_files": [
+    "README.md",
+    "README.it.md",
+    "CITATION.cff",
+    "CITING.md",
+    "LICENSE.md",
+    "llms.txt",
+    "docs/methodology.md",
+    "docs/metrics.md",
+    "docs/limitations.md",
+    "data/README.md",
+    "data/panel-500.sha256",
+    "metadata/dataset.jsonld"
+  ]
+}
