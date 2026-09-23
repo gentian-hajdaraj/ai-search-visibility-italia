@@ -33,5 +33,10 @@
     "brand visibility",
     "recommendation share",
     "citation share"
+  ],
+  "codeRepository": "https://github.com/gentian-hajdaraj/ai-search-visibility-italia",
+  "sameAs": [
+    "https://telescop.it/research/ai-search-visibility-italia/",
+    "https://github.com/gentian-hajdaraj/ai-search-visibility-italia"
   ]
 }
