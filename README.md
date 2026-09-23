@@ -103,6 +103,14 @@ The detailed methodology is available at:
 
 https://telescop.it/research/ai-search-visibility-italia/methodology/
 
+The frozen 500-query panel and machine-readable result summary can be retrieved directly from the public research endpoints.
+
+```bash
+bash scripts/fetch-public-data.sh
+```
+
+The fetch script verifies the panel against the published SHA-256 before accepting it. See [docs/data-provenance.md](docs/data-provenance.md) and [data/public-assets.json](data/public-assets.json).
+
 This GitHub repository is a **research distribution and documentation layer**. The DOI-backed Zenodo record remains the canonical frozen release for citation and archival purposes.
 
 ## Repository structure
@@ -119,10 +127,16 @@ This GitHub repository is a **research distribution and documentation layer**. T
 ├── docs/
 │   ├── methodology.md
 │   ├── metrics.md
-│   └── limitations.md
+│   ├── limitations.md
+│   └── data-provenance.md
 ├── data/
 │   ├── README.md
-│   └── panel-500.sha256
+│   ├── manifest.json
+│   ├── original-SHA256SUMS.txt
+│   ├── panel-500.sha256
+│   └── public-assets.json
+├── scripts/
+│   └── fetch-public-data.sh
 └── metadata/
     └── dataset.jsonld
 ```
