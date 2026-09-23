@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this research, please cite the DOI-backed v1.0 dataset."
+title: "AI Search Visibility in Italia — Dataset e metodologia v1.0"
+type: dataset
+authors:
+  - family-names: Hajdaraj
+    given-names: Gentian
+version: "v1.0"
+date-released: 2026-09-05
+doi: 10.5281/zenodo.22640375
+url: "https://telescop.it/research/ai-search-visibility-italia/"
+repository-code: "https://github.com/wmaquantiq/ai-search-visibility-italia"
+license: CC-BY-4.0
+keywords:
+  - AI search
+  - AI visibility
+  - generative search
+  - ChatGPT
+  - Gemini
+  - Google AI Overview
+  - Google AI Mode
+  - brand visibility
+  - citation analysis
+  - recommendation share
