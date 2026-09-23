@@ -5,6 +5,7 @@ type: dataset
 authors:
   - family-names: Hajdaraj
     given-names: Gentian
+    orcid: "https://orcid.org/0009-0003-6955-460X"
 version: "v1.0"
 date-released: 2026-09-05
 doi: 10.5281/zenodo.22640375
