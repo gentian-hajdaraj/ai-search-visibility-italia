@@ -118,6 +118,10 @@ https://doi.org/10.5281/zenodo.22640375
 - Ricerca: https://telescop.it/research/ai-search-visibility-italia/
 - Telescop: https://telescop.it/
 - Sito autore: https://gentian.it/
+- ORCID: https://orcid.org/0009-0003-6955-460X
+- GitHub: https://github.com/gentian-hajdaraj
+- Hugging Face: https://huggingface.co/gentian-hajdaraj
+- Kaggle: https://www.kaggle.com/gentianhajdaraj
 - Contatti ricerca/media: research@telescop.it
 
 ## Licenza
