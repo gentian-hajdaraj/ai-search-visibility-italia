@@ -6,17 +6,63 @@ https://doi.org/10.5281/zenodo.22640375
 
 This directory is intentionally conservative: it does not fabricate, regenerate or silently alter research rows.
 
-When public dataset files are mirrored here, they should be copied from the canonical release and accompanied by checksums and provenance.
+## What is stored here
+
+- `manifest.json` — human-readable reconstruction of the frozen panel methodology manifest from the verified research audit.
+- `original-SHA256SUMS.txt` — checksums recorded for the original frozen source artifacts.
+- `public-assets.json` — registry of canonical public URLs and known integrity metadata.
+- `panel-500.sha256` — the frozen panel checksum used throughout the published methodology.
+
+The original source artifacts remain canonical through the DOI-backed release and the public Telescop Research endpoints.
 
 ## Frozen panel
 
-The study uses a 500-query panel with SHA-256:
+The public 500-query panel is available at:
+
+https://telescop.it/research/ai-search-visibility-italia/methodology/data/panel-500.csv
+
+Expected integrity:
 
 ```text
-c39b8f8e201bad7718d8233d3c7563f7a115530fb55bd293a18982c7665ac214
+SHA-256 c39b8f8e201bad7718d8233d3c7563f7a115530fb55bd293a18982c7665ac214
+501 lines including header
+500 data rows
+42,866 bytes in the frozen source audit
 ```
 
-See [`panel-500.sha256`](panel-500.sha256).
+Columns:
+
+```text
+panel_id
+panel_type
+sector
+intent
+brand
+query
+volume
+keyword_id
+```
+
+## Fetch the public data
+
+From the repository root:
+
+```bash
+bash scripts/fetch-public-data.sh
+```
+
+The script downloads:
+
+- `panel-500.csv`
+- `research-summary-v1.0.json`
+- `manifest.json`
+- `SHA256SUMS.txt`
+
+and rejects the frozen panel if its SHA-256 or line count does not match the published v1.0 values.
+
+Downloaded material is written to `data/downloaded-v1.0/` and ignored by Git by default.
+
+See [../docs/data-provenance.md](../docs/data-provenance.md).
 
 ## Release totals
 
