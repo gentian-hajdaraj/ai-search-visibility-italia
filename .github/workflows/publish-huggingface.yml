@@ -1,0 +1,78 @@
+name: Publish Hugging Face dataset
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install Hugging Face client
+        run: python -m pip install --upgrade huggingface_hub
+
+      - name: Prepare Hugging Face package
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          OUT="build/huggingface"
+          rm -rf "$OUT"
+          mkdir -p "$OUT"
+
+          cp data/release-v1.0/panel-500.csv "$OUT/"
+          cp data/release-v1.0/research-summary-v1.0.json "$OUT/"
+          cp data/release-v1.0/manifest.json "$OUT/"
+          cp distribution/huggingface/README.md "$OUT/README.md"
+
+          sha256sum "$OUT/panel-500.csv"
+
+      - name: Publish dataset
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          test -n "${HF_TOKEN:-}" || {
+            echo "Missing GitHub secret HF_TOKEN" >&2
+            exit 1
+          }
+
+          python - <<'PY'
+          import os
+          from huggingface_hub import HfApi, create_repo
+
+          token = os.environ["HF_TOKEN"]
+          repo_id = "gentian-hajdaraj/ai-search-visibility-italia"
+
+          create_repo(
+              repo_id=repo_id,
+              repo_type="dataset",
+              private=False,
+              exist_ok=True,
+              token=token,
+          )
+
+          api = HfApi(token=token)
+          api.upload_folder(
+              repo_id=repo_id,
+              repo_type="dataset",
+              folder_path="build/huggingface",
+              path_in_repo="",
+              commit_message="Publish AI Search Visibility in Italia v1.0",
+          )
+
+          print(f"Published: https://huggingface.co/datasets/{repo_id}")
+          PY
