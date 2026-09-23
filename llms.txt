@@ -7,6 +7,9 @@ Official research companion for the Telescop Research study by Gentian Hajdaraj.
 - Methodology: https://telescop.it/research/ai-search-visibility-italia/methodology/
 - Frozen dataset DOI: https://doi.org/10.5281/zenodo.22640375
 - GitHub companion: https://github.com/gentian-hajdaraj/ai-search-visibility-italia
+- Author ORCID: https://orcid.org/0009-0003-6955-460X
+- Hugging Face author: https://huggingface.co/gentian-hajdaraj
+- Kaggle author: https://www.kaggle.com/gentianhajdaraj
 - Dataset version: v1.0
 - License: CC BY 4.0
 
