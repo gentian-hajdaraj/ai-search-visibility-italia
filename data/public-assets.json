@@ -1,0 +1,36 @@
+{
+  "version": "v1.0",
+  "canonical_doi": "https://doi.org/10.5281/zenodo.22640375",
+  "web_report": "https://telescop.it/research/ai-search-visibility-italia/",
+  "public_assets": [
+    {
+      "name": "panel-500.csv",
+      "type": "text/csv",
+      "url": "https://telescop.it/research/ai-search-visibility-italia/methodology/data/panel-500.csv",
+      "rows": 500,
+      "lines_including_header": 501,
+      "bytes": 42866,
+      "sha256": "c39b8f8e201bad7718d8233d3c7563f7a115530fb55bd293a18982c7665ac214",
+      "role": "frozen_query_panel"
+    },
+    {
+      "name": "research-summary-v1.0.json",
+      "type": "application/json",
+      "url": "https://telescop.it/research/ai-search-visibility-italia/data/research-summary-v1.0.json",
+      "role": "published_result_summary"
+    },
+    {
+      "name": "manifest.json",
+      "type": "application/json",
+      "url": "https://telescop.it/research/ai-search-visibility-italia/methodology/data/manifest.json",
+      "sha256": "ca3d66abc800607cf7d958cf147aa59aadd8ba60041edd6d120dbef19d37f340",
+      "role": "panel_methodology_manifest"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "type": "text/plain",
+      "url": "https://telescop.it/research/ai-search-visibility-italia/methodology/data/SHA256SUMS.txt",
+      "role": "integrity_checks"
+    }
+  ]
+}
