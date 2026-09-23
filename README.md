@@ -44,7 +44,7 @@ Each surface is treated separately. The study does **not** collapse all four exp
 - **Source ecosystems diverged even more strongly:** source divergence ranged from 82.77% to 91.27% across ChatGPT, Gemini and Google AI Overview.
 - **The visible brand universe differed by surface:** 250 unique unprompted commercial-brand families were observed on ChatGPT, 368 on Gemini, 366 on Google AI Mode and 236 on Google AI Overview.
 
-Machine-readable values behind these findings are available in `data/release-v1.0/research-summary-v1.0.json`.
+Machine-readable values behind these findings are available in [data/release-v1.0/research-summary-v1.0.json](data/release-v1.0/research-summary-v1.0.json).
 
 ## Distribution packages
 
