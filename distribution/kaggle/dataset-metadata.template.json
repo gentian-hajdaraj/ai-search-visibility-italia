@@ -22,42 +22,50 @@
           {
             "name": "panel_id",
             "description": "Stable panel identifier.",
-            "type": "string"
+            "type": "string",
+            "title": "Stable panel identifier."
           },
           {
             "name": "panel_type",
             "description": "nonbranded or control.",
-            "type": "string"
+            "type": "string",
+            "title": "nonbranded or control."
           },
           {
             "name": "sector",
             "description": "Research sector.",
-            "type": "string"
+            "type": "string",
+            "title": "Research sector."
           },
           {
             "name": "intent",
             "description": "Research intent.",
-            "type": "string"
+            "type": "string",
+            "title": "Research intent."
           },
           {
             "name": "brand",
             "description": "Seeded brand for control queries; empty otherwise.",
-            "type": "string"
+            "type": "string",
+            "title": "Seeded brand for control queries; empty otherwise."
           },
           {
             "name": "query",
             "description": "Italian-language query.",
-            "type": "string"
+            "type": "string",
+            "title": "Italian-language query."
           },
           {
             "name": "volume",
             "description": "Search-volume field used during panel construction.",
-            "type": "integer"
+            "type": "integer",
+            "title": "Search-volume field used during panel construction."
           },
           {
             "name": "keyword_id",
             "description": "Internal source keyword identifier.",
-            "type": "integer"
+            "type": "integer",
+            "title": "Internal source keyword identifier."
           }
         ]
       }
@@ -70,5 +78,7 @@
       "path": "manifest.json",
       "description": "Frozen research panel methodology and quota manifest."
     }
-  ]
+  ],
+  "expectedUpdateFrequency": "annually",
+  "userSpecifiedSources": "Original research produced by **Gentian Hajdaraj / Telescop Research**.\n\n- Canonical archived release: https://doi.org/10.5281/zenodo.22640375\n- Public research report: https://telescop.it/research/ai-search-visibility-italia/\n- Methodology: https://telescop.it/research/ai-search-visibility-italia/methodology/\n- GitHub companion: https://github.com/gentian-hajdaraj/ai-search-visibility-italia\n- ORCID: https://orcid.org/0009-0003-6955-460X\n\nThe Kaggle dataset is a distribution mirror of selected public v1.0 research assets. The DOI-backed Zenodo record remains the canonical archival reference."
 }
