@@ -1,6 +1,12 @@
 # ORCID / DataCite linkage
 
-The goal is to connect the author identity **Gentian Hajdaraj** to the DOI-backed research object without creating a duplicate publication identity.
+The author identity is now established as:
+
+- **Gentian Hajdaraj**
+- ORCID: https://orcid.org/0009-0003-6955-460X
+- GitHub: https://github.com/gentian-hajdaraj
+- Hugging Face: https://huggingface.co/gentian-hajdaraj
+- Kaggle: https://www.kaggle.com/gentianhajdaraj
 
 ## Research object
 
@@ -14,32 +20,28 @@ The goal is to connect the author identity **Gentian Hajdaraj** to the DOI-backe
 - URL: https://doi.org/10.5281/zenodo.22640375
 - Research report: https://telescop.it/research/ai-search-visibility-italia/
 
-## ORCID
+## ORCID action
 
-Once the author's ORCID iD is available:
+Add the DOI-backed dataset to ORCID using DOI `10.5281/zenodo.22640375` as the external identifier. Prefer DOI/DataCite import when ORCID offers it, so metadata is imported from the persistent identifier rather than duplicated manually.
 
-1. Add the DOI-backed dataset to the ORCID record using the DOI as the external identifier.
-2. Prefer an automated DOI/DataCite import when available rather than manually duplicating metadata.
-3. Use the same author name: `Gentian Hajdaraj`.
-4. Keep the DOI as the canonical external identifier.
-5. Add the ORCID iD to future structured metadata for this research and subsequent Telescop Research releases.
+Use the creator name `Gentian Hajdaraj` and keep the DOI as the canonical external identifier.
 
-## DataCite / Zenodo metadata improvement
+## Zenodo / DataCite metadata improvement
 
-If the Zenodo record metadata can be edited without changing the frozen research files, add the author's ORCID iD to the creator metadata.
+If the Zenodo record metadata is editable without replacing the frozen files, add ORCID `0009-0003-6955-460X` to the creator metadata.
 
-This strengthens the persistent identifier graph:
+This establishes the persistent identity graph:
 
 ```text
 Gentian Hajdaraj
-        ↓ ORCID
-research author identity
-        ↓ creator relationship
-10.5281/zenodo.22640375
+        ↓
+ORCID 0009-0003-6955-460X
+        ↓ creator
+DOI 10.5281/zenodo.22640375
         ↓
 AI Search Visibility in Italia
-        ↓
-Telescop Research
+        ↙          ↓          ↘
+     GitHub   Hugging Face   Kaggle
 ```
 
 ## Important
