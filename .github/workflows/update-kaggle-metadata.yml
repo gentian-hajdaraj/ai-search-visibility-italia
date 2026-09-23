@@ -1,0 +1,55 @@
+name: Update Kaggle metadata
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-kaggle-metadata.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install Kaggle CLI
+        run: python -m pip install --upgrade kaggle
+
+      - name: Prepare metadata
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT="build/kaggle-metadata"
+          rm -rf "$OUT"
+          mkdir -p "$OUT"
+          cp distribution/kaggle/dataset-metadata.json "$OUT/dataset-metadata.json"
+
+      - name: Update Kaggle metadata
+        env:
+          KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          test -n "${KAGGLE_API_TOKEN:-}" || {
+            echo "Missing GitHub secret KAGGLE_API_TOKEN" >&2
+            exit 1
+          }
+
+          DATASET="gentianhajdaraj/ai-search-visibility-italia"
+          OUT="build/kaggle-metadata"
+
+          kaggle datasets metadata "$DATASET" --update -p "$OUT"
+          echo "Metadata updated: https://www.kaggle.com/datasets/$DATASET"
