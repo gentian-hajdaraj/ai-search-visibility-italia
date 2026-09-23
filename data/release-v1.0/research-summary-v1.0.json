@@ -1,0 +1,658 @@
+{
+    "research": {
+        "title": "AI Search Visibility in Italia",
+        "subtitle": "Come ChatGPT, Gemini e Google AI scelgono brand e fonti nelle risposte generative",
+        "version": "1.0",
+        "publication_date": "2026-09-05",
+        "total_prompts": 500,
+        "main_panel_prompts": 480,
+        "control_prompts": 20,
+        "engines": 4,
+        "replicates": 3,
+        "total_observations": 6000,
+        "brand_observations": 5760,
+        "commercial_brand_families": 529
+    },
+    "engines": {
+        "chatgpt": {
+            "key": "chatgpt",
+            "label": "ChatGPT",
+            "responses": 1440,
+            "surface_responses": 1440,
+            "surface_rate_pct": 100,
+            "commercial_brand_presence_pct": 57.01,
+            "unprompted_visibility_pct": 54.93,
+            "unprompted_visibility_given_surface_pct": 54.93,
+            "avg_unprompted_brands": 1.288,
+            "avg_unprompted_brands_given_surface": 1.288,
+            "unique_unprompted_brand_families": 250,
+            "seed_retention_pct": 100
+        },
+        "gemini": {
+            "key": "gemini",
+            "label": "Gemini",
+            "responses": 1440,
+            "surface_responses": 1440,
+            "surface_rate_pct": 100,
+            "commercial_brand_presence_pct": 65.69,
+            "unprompted_visibility_pct": 64.1,
+            "unprompted_visibility_given_surface_pct": 64.1,
+            "avg_unprompted_brands": 1.765,
+            "avg_unprompted_brands_given_surface": 1.765,
+            "unique_unprompted_brand_families": 368,
+            "seed_retention_pct": 98.04
+        },
+        "google_ai_mode": {
+            "key": "google_ai_mode",
+            "label": "Google AI Mode",
+            "responses": 1440,
+            "surface_responses": 1440,
+            "surface_rate_pct": 100,
+            "commercial_brand_presence_pct": 76.6,
+            "unprompted_visibility_pct": 74.93,
+            "unprompted_visibility_given_surface_pct": 74.93,
+            "avg_unprompted_brands": 2.074,
+            "avg_unprompted_brands_given_surface": 2.074,
+            "unique_unprompted_brand_families": 366,
+            "seed_retention_pct": 100
+        },
+        "google_ai_overview": {
+            "key": "google_ai_overview",
+            "label": "Google AI Overview",
+            "responses": 1440,
+            "surface_responses": 1081,
+            "surface_rate_pct": 75.07,
+            "commercial_brand_presence_pct": 52.5,
+            "unprompted_visibility_pct": 50.49,
+            "unprompted_visibility_given_surface_pct": 67.25,
+            "avg_unprompted_brands": 1.115,
+            "avg_unprompted_brands_given_surface": 1.486,
+            "unique_unprompted_brand_families": 236,
+            "seed_retention_pct": 86.27
+        }
+    },
+    "top_brands": {
+        "chatgpt": [
+            {
+                "rank": 1,
+                "brand": "Google",
+                "visibility_pct": 14.44,
+                "surface_visibility_pct": 14.44,
+                "mentions": 208,
+                "replicate_range_pp": 0.83
+            },
+            {
+                "rank": 2,
+                "brand": "Samsung",
+                "visibility_pct": 6.74,
+                "surface_visibility_pct": 6.74,
+                "mentions": 97,
+                "replicate_range_pp": 0.62
+            },
+            {
+                "rank": 3,
+                "brand": "Meta",
+                "visibility_pct": 4.86,
+                "surface_visibility_pct": 4.86,
+                "mentions": 70,
+                "replicate_range_pp": 0.21
+            },
+            {
+                "rank": 4,
+                "brand": "Amazon",
+                "visibility_pct": 4.65,
+                "surface_visibility_pct": 4.65,
+                "mentions": 67,
+                "replicate_range_pp": 2.71
+            },
+            {
+                "rank": 5,
+                "brand": "MediaWorld",
+                "visibility_pct": 4.03,
+                "surface_visibility_pct": 4.03,
+                "mentions": 58,
+                "replicate_range_pp": 0.21
+            },
+            {
+                "rank": 6,
+                "brand": "Apple",
+                "visibility_pct": 3.75,
+                "surface_visibility_pct": 3.75,
+                "mentions": 54,
+                "replicate_range_pp": 1.25
+            },
+            {
+                "rank": 7,
+                "brand": "Microsoft",
+                "visibility_pct": 3.4,
+                "surface_visibility_pct": 3.4,
+                "mentions": 49,
+                "replicate_range_pp": 0.21
+            },
+            {
+                "rank": 8,
+                "brand": "Shopify",
+                "visibility_pct": 2.92,
+                "surface_visibility_pct": 2.92,
+                "mentions": 42,
+                "replicate_range_pp": 1.04
+            },
+            {
+                "rank": 9,
+                "brand": "Unieuro",
+                "visibility_pct": 2.71,
+                "surface_visibility_pct": 2.71,
+                "mentions": 39,
+                "replicate_range_pp": 1.25
+            },
+            {
+                "rank": 10,
+                "brand": "Lenovo",
+                "visibility_pct": 2.36,
+                "surface_visibility_pct": 2.36,
+                "mentions": 34,
+                "replicate_range_pp": 0.63
+            }
+        ],
+        "gemini": [
+            {
+                "rank": 1,
+                "brand": "Google",
+                "visibility_pct": 16.88,
+                "surface_visibility_pct": 16.88,
+                "mentions": 243,
+                "replicate_range_pp": 2.09
+            },
+            {
+                "rank": 2,
+                "brand": "Apple",
+                "visibility_pct": 6.67,
+                "surface_visibility_pct": 6.67,
+                "mentions": 96,
+                "replicate_range_pp": 0.83
+            },
+            {
+                "rank": 3,
+                "brand": "Amazon",
+                "visibility_pct": 5.69,
+                "surface_visibility_pct": 5.69,
+                "mentions": 82,
+                "replicate_range_pp": 0.62
+            },
+            {
+                "rank": 4,
+                "brand": "Facile.it",
+                "visibility_pct": 5.69,
+                "surface_visibility_pct": 5.69,
+                "mentions": 82,
+                "replicate_range_pp": 1.88
+            },
+            {
+                "rank": 5,
+                "brand": "Samsung",
+                "visibility_pct": 5.63,
+                "surface_visibility_pct": 5.63,
+                "mentions": 81,
+                "replicate_range_pp": 0.83
+            },
+            {
+                "rank": 6,
+                "brand": "Meta",
+                "visibility_pct": 4.65,
+                "surface_visibility_pct": 4.65,
+                "mentions": 67,
+                "replicate_range_pp": 1.25
+            },
+            {
+                "rank": 7,
+                "brand": "Motorola",
+                "visibility_pct": 3.2,
+                "surface_visibility_pct": 3.2,
+                "mentions": 46,
+                "replicate_range_pp": 0.84
+            },
+            {
+                "rank": 8,
+                "brand": "Luce-Gas.it",
+                "visibility_pct": 2.71,
+                "surface_visibility_pct": 2.71,
+                "mentions": 39,
+                "replicate_range_pp": 0.42
+            },
+            {
+                "rank": 9,
+                "brand": "Segugio.it",
+                "visibility_pct": 2.57,
+                "surface_visibility_pct": 2.57,
+                "mentions": 37,
+                "replicate_range_pp": 0.84
+            },
+            {
+                "rank": 10,
+                "brand": "CapCut",
+                "visibility_pct": 2.36,
+                "surface_visibility_pct": 2.36,
+                "mentions": 34,
+                "replicate_range_pp": 1.25
+            }
+        ],
+        "google_ai_mode": [
+            {
+                "rank": 1,
+                "brand": "Google",
+                "visibility_pct": 16.39,
+                "surface_visibility_pct": 16.39,
+                "mentions": 236,
+                "replicate_range_pp": 2.29
+            },
+            {
+                "rank": 2,
+                "brand": "Facile.it",
+                "visibility_pct": 11.32,
+                "surface_visibility_pct": 11.32,
+                "mentions": 163,
+                "replicate_range_pp": 1.46
+            },
+            {
+                "rank": 3,
+                "brand": "Segugio.it",
+                "visibility_pct": 7.85,
+                "surface_visibility_pct": 7.85,
+                "mentions": 113,
+                "replicate_range_pp": 1.04
+            },
+            {
+                "rank": 4,
+                "brand": "Amazon",
+                "visibility_pct": 6.18,
+                "surface_visibility_pct": 6.18,
+                "mentions": 89,
+                "replicate_range_pp": 1.66
+            },
+            {
+                "rank": 5,
+                "brand": "Samsung",
+                "visibility_pct": 6.18,
+                "surface_visibility_pct": 6.18,
+                "mentions": 89,
+                "replicate_range_pp": 0.84
+            },
+            {
+                "rank": 6,
+                "brand": "Apple",
+                "visibility_pct": 5.97,
+                "surface_visibility_pct": 5.97,
+                "mentions": 86,
+                "replicate_range_pp": 0.42
+            },
+            {
+                "rank": 7,
+                "brand": "Meta",
+                "visibility_pct": 5.56,
+                "surface_visibility_pct": 5.56,
+                "mentions": 80,
+                "replicate_range_pp": 0.83
+            },
+            {
+                "rank": 8,
+                "brand": "Microsoft",
+                "visibility_pct": 4.17,
+                "surface_visibility_pct": 4.17,
+                "mentions": 60,
+                "replicate_range_pp": 1.25
+            },
+            {
+                "rank": 9,
+                "brand": "Motorola",
+                "visibility_pct": 3.41,
+                "surface_visibility_pct": 3.41,
+                "mentions": 49,
+                "replicate_range_pp": 0.42
+            },
+            {
+                "rank": 10,
+                "brand": "Skyscanner",
+                "visibility_pct": 3.26,
+                "surface_visibility_pct": 3.26,
+                "mentions": 47,
+                "replicate_range_pp": 0.2
+            }
+        ],
+        "google_ai_overview": [
+            {
+                "rank": 1,
+                "brand": "Google",
+                "visibility_pct": 10.28,
+                "surface_visibility_pct": 13.69,
+                "mentions": 148,
+                "replicate_range_pp": 0.21
+            },
+            {
+                "rank": 2,
+                "brand": "Segugio.it",
+                "visibility_pct": 7.15,
+                "surface_visibility_pct": 9.53,
+                "mentions": 103,
+                "replicate_range_pp": 1.46
+            },
+            {
+                "rank": 3,
+                "brand": "Facile.it",
+                "visibility_pct": 6.25,
+                "surface_visibility_pct": 8.33,
+                "mentions": 90,
+                "replicate_range_pp": 2.29
+            },
+            {
+                "rank": 4,
+                "brand": "Microsoft",
+                "visibility_pct": 4.24,
+                "surface_visibility_pct": 5.64,
+                "mentions": 61,
+                "replicate_range_pp": 1.87
+            },
+            {
+                "rank": 5,
+                "brand": "Amazon",
+                "visibility_pct": 3.26,
+                "surface_visibility_pct": 4.35,
+                "mentions": 47,
+                "replicate_range_pp": 0.2
+            },
+            {
+                "rank": 6,
+                "brand": "CapCut",
+                "visibility_pct": 2.71,
+                "surface_visibility_pct": 3.61,
+                "mentions": 39,
+                "replicate_range_pp": 1.05
+            },
+            {
+                "rank": 7,
+                "brand": "Shopify",
+                "visibility_pct": 2.15,
+                "surface_visibility_pct": 2.87,
+                "mentions": 31,
+                "replicate_range_pp": 0.21
+            },
+            {
+                "rank": 8,
+                "brand": "Moto Guzzi",
+                "visibility_pct": 2.1,
+                "surface_visibility_pct": 2.8,
+                "mentions": 30,
+                "replicate_range_pp": 0
+            },
+            {
+                "rank": 9,
+                "brand": "BPER",
+                "visibility_pct": 2.08,
+                "surface_visibility_pct": 2.78,
+                "mentions": 30,
+                "replicate_range_pp": 2.29
+            },
+            {
+                "rank": 10,
+                "brand": "WooCommerce",
+                "visibility_pct": 1.6,
+                "surface_visibility_pct": 2.13,
+                "mentions": 23,
+                "replicate_range_pp": 0.21
+            }
+        ]
+    },
+    "brand_divergence": [
+        {
+            "engine_a": "chatgpt",
+            "engine_b": "gemini",
+            "label_a": "ChatGPT",
+            "label_b": "Gemini",
+            "agreement_pct": 44.12,
+            "divergence_pct": 55.88,
+            "both_with_brands": 621
+        },
+        {
+            "engine_a": "chatgpt",
+            "engine_b": "google_ai_mode",
+            "label_a": "ChatGPT",
+            "label_b": "Google AI Mode",
+            "agreement_pct": 40.39,
+            "divergence_pct": 59.61,
+            "both_with_brands": 686
+        },
+        {
+            "engine_a": "chatgpt",
+            "engine_b": "google_ai_overview",
+            "label_a": "ChatGPT",
+            "label_b": "Google AI Overview",
+            "agreement_pct": 39.66,
+            "divergence_pct": 60.34,
+            "both_with_brands": 473
+        },
+        {
+            "engine_a": "gemini",
+            "engine_b": "google_ai_mode",
+            "label_a": "Gemini",
+            "label_b": "Google AI Mode",
+            "agreement_pct": 43.15,
+            "divergence_pct": 56.85,
+            "both_with_brands": 818
+        },
+        {
+            "engine_a": "gemini",
+            "engine_b": "google_ai_overview",
+            "label_a": "Gemini",
+            "label_b": "Google AI Overview",
+            "agreement_pct": 37.8,
+            "divergence_pct": 62.2,
+            "both_with_brands": 571
+        },
+        {
+            "engine_a": "google_ai_mode",
+            "engine_b": "google_ai_overview",
+            "label_a": "Google AI Mode",
+            "label_b": "Google AI Overview",
+            "agreement_pct": 43.27,
+            "divergence_pct": 56.73,
+            "both_with_brands": 644
+        }
+    ],
+    "replicates": {
+        "chatgpt": [
+            {
+                "replicate": 1,
+                "surface_rate_pct": 100,
+                "unprompted_visibility_pct": 56.67
+            },
+            {
+                "replicate": 2,
+                "surface_rate_pct": 100,
+                "unprompted_visibility_pct": 54.79
+            },
+            {
+                "replicate": 3,
+                "surface_rate_pct": 100,
+                "unprompted_visibility_pct": 53.33
+            }
+        ],
+        "gemini": [
+            {
+                "replicate": 1,
+                "surface_rate_pct": 100,
+                "unprompted_visibility_pct": 64.58
+            },
+            {
+                "replicate": 2,
+                "surface_rate_pct": 100,
+                "unprompted_visibility_pct": 65.63
+            },
+            {
+                "replicate": 3,
+                "surface_rate_pct": 100,
+                "unprompted_visibility_pct": 62.08
+            }
+        ],
+        "google_ai_mode": [
+            {
+                "replicate": 1,
+                "surface_rate_pct": 100,
+                "unprompted_visibility_pct": 75
+            },
+            {
+                "replicate": 2,
+                "surface_rate_pct": 100,
+                "unprompted_visibility_pct": 76.46
+            },
+            {
+                "replicate": 3,
+                "surface_rate_pct": 100,
+                "unprompted_visibility_pct": 73.33
+            }
+        ],
+        "google_ai_overview": [
+            {
+                "replicate": 1,
+                "surface_rate_pct": 75.21,
+                "unprompted_visibility_pct": 50.42
+            },
+            {
+                "replicate": 2,
+                "surface_rate_pct": 74.79,
+                "unprompted_visibility_pct": 49.79
+            },
+            {
+                "replicate": 3,
+                "surface_rate_pct": 75.21,
+                "unprompted_visibility_pct": 51.25
+            }
+        ]
+    },
+    "source_divergence": [
+        {
+            "engine_a": "ChatGPT",
+            "engine_b": "Gemini",
+            "divergence_pct": 89.94
+        },
+        {
+            "engine_a": "ChatGPT",
+            "engine_b": "Google AI Overview",
+            "divergence_pct": 91.27
+        },
+        {
+            "engine_a": "Gemini",
+            "engine_b": "Google AI Overview",
+            "divergence_pct": 82.77
+        }
+    ],
+    "source_metrics": {
+        "chatgpt": {
+            "surface_rate_pct": 100,
+            "citation_rate_pct": 93.33,
+            "search_source_rate_pct": 95.27,
+            "source_coverage_pct": 95.27,
+            "unique_domains": 1272
+        },
+        "gemini": {
+            "surface_rate_pct": 100,
+            "citation_rate_pct": 59.33,
+            "search_source_rate_pct": 2.67,
+            "source_coverage_pct": 60.8,
+            "unique_domains": 986
+        },
+        "google_ai_mode": {
+            "surface_rate_pct": 100,
+            "citation_rate_pct": null,
+            "search_source_rate_pct": 88.87,
+            "source_coverage_pct": 89.07,
+            "unique_domains": null,
+            "comparability_note": "Citation e domain attribution aggregate esclusi per discontinuità della strumentazione."
+        },
+        "google_ai_overview": {
+            "surface_rate_pct": 76.07,
+            "citation_rate_pct": 76,
+            "search_source_rate_pct": 0,
+            "source_coverage_pct": 76,
+            "unique_domains": 1075
+        }
+    },
+    "source_ecosystems": {
+        "ChatGPT": [
+            "ARERA",
+            "Treccani",
+            "IVASS",
+            "Shopify",
+            "support.google.com",
+            "IBM"
+        ],
+        "Gemini": [
+            "Facile.it",
+            "Papernest",
+            "Reddit",
+            "Aranzulla",
+            "Tom’s Hardware"
+        ],
+        "Google AI Overview": [
+            "YouTube",
+            "Facebook",
+            "Facile.it",
+            "Wikipedia",
+            "Reddit",
+            "Instagram",
+            "TikTok"
+        ]
+    },
+    "aio_top_sources": [
+        {
+            "domain": "YouTube",
+            "observations": 818,
+            "pct": 54.53
+        },
+        {
+            "domain": "Facebook",
+            "observations": 250,
+            "pct": 16.67
+        },
+        {
+            "domain": "Facile.it",
+            "observations": 159,
+            "pct": 10.6
+        },
+        {
+            "domain": "Wikipedia",
+            "observations": 126,
+            "pct": 8.4
+        },
+        {
+            "domain": "Reddit",
+            "observations": 95,
+            "pct": 6.33
+        },
+        {
+            "domain": "Instagram",
+            "observations": 83,
+            "pct": 5.53
+        },
+        {
+            "domain": "TikTok",
+            "observations": 57,
+            "pct": 3.8
+        }
+    ],
+    "methodology": {
+        "brand_metrics_version": "brand-metrics-v1.2",
+        "source_metrics_version": "research-public-methodology-v1.1",
+        "primary_brand_metric": "Unprompted Commercial Brand Visibility",
+        "brand_divergence_definition": "1 - Jaccard",
+        "source_divergence_definition": "1 - Jaccard",
+        "aio_note": "Per AIO vengono mostrati sia il denominatore su tutte le osservazioni sia quello condizionato alla presenza della superficie.",
+        "ai_mode_note": "Le metriche aggregate di citation attribution e domain attribution di AI Mode sono escluse dai confronti a causa di una discontinuità nei metadati esposti dal provider."
+    },
+    "provenance": {
+        "research_brand_engine_metrics_v1.2.csv": "21c982b212f30be4ff656593cd847aa84cf54d031d817706fff692a0285d9322",
+        "research_top_brands_v1.2.csv": "7abaa36033fe1701b091581963f7490cff2f6c5599db4ad64bcd59e91466f9e5",
+        "research_brand_pair_agreement_v1.2.csv": "0fe71d759303eb4ff5c0afa160f7883f18a383e069b50a0a2c0829431c8b84b9",
+        "research_brand_replicate_metrics_v1.2.csv": "37ff6508487d3061d2cde0d67fc1a17844e8693534dda16cac3bad258141c4f3",
+        "research-brand-metrics-v1.2.json": "2afc759b52b274aa93543bdb517b30a3b8f63f4b58c45ad2fc42a43a4f9411a4"
+    },
+    "generated_at": "2026-09-05T12:36:52+00:00"
+}

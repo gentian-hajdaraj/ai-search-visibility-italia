@@ -1,0 +1,501 @@
+panel_id,panel_type,sector,intent,brand,query,volume,keyword_id
+NB001,nonbranded,software_crm,discovery,,"customer relationship management significato",5400,1436299
+NB002,nonbranded,software_crm,discovery,,"come funziona l intelligenza artificiale",1600,1334149
+NB003,nonbranded,software_crm,discovery,,"intelligenza artificiale come funziona",880,450791
+NB004,nonbranded,software_crm,discovery,,"machine learning significato",880,626910
+NB005,nonbranded,software_crm,discovery,,"definizione intelligenza artificiale",590,270978
+NB006,nonbranded,software_crm,discovery,,"lead generation significato",480,519681
+NB007,nonbranded,software_crm,discovery,,"cosa è intelligenza artificiale",480,3046449
+NB008,nonbranded,software_crm,discovery,,"intelligenza artificiale esempi",390,450553
+NB009,nonbranded,software_crm,discovery,,"intelligenza artificiale significato",390,450568
+NB010,nonbranded,software_crm,discovery,,"erp esempi",110,311599
+NB011,nonbranded,software_crm,discovery,,"sistemi erp esempi",110,2100739
+NB012,nonbranded,software_crm,discovery,,"machine learning esempi",110,626902
+NB013,nonbranded,software_crm,discovery,,"cloud computing esempi",90,1191091
+NB014,nonbranded,software_crm,discovery,,"marketing automation esempi",70,1299294
+NB015,nonbranded,software_crm,discovery,,"saas esempi",70,905497
+NB016,nonbranded,software_crm,discovery,,"esempi di intelligenza artificiale nella vita quotidiana",70,309667
+NB017,nonbranded,software_crm,discovery,,"intelligenza artificiale esempi pratici",70,1334055
+NB018,nonbranded,software_crm,discovery,,"lead generation strategie",50,541143
+NB019,nonbranded,software_crm,discovery,,"lead generation esempi",50,541196
+NB020,nonbranded,software_crm,discovery,,"lead generation definizione",50,541207
+NB021,nonbranded,software_crm,discovery,,"come fare lead generation",50,1629315
+NB022,nonbranded,software_crm,discovery,,"crm software significato",50,3372708
+NB023,nonbranded,software_crm,discovery,,"antivirus significato",40,33150
+NB024,nonbranded,software_crm,discovery,,"iaas paas saas esempi",40,486119
+NB025,nonbranded,software_crm,discovery,,"software erp esempi",40,2100823
+NB026,nonbranded,software_crm,discovery,,"crm marketing significato",40,2102140
+NB027,nonbranded,software_crm,discovery,,"tipi di machine learning",40,958255
+NB028,nonbranded,software_crm,discovery,,"significato hosting",30,2136073
+NB029,nonbranded,software_crm,discovery,,"tipi di cloud computing",30,1191194
+NB030,nonbranded,software_crm,discovery,,"cosa significa lead generation",30,1629363
+NB031,nonbranded,software_crm,discovery,,"tipi di sicurezza informatica",20,1254587
+NB032,nonbranded,software_crm,discovery,,"erp vantaggi",10,311869
+NB033,nonbranded,software_crm,discovery,,"sistema erp come funziona",10,2101261
+NB034,nonbranded,software_crm,discovery,,"lead generation come funziona",10,535037
+NB035,nonbranded,software_crm,discovery,,"marketing automation strategie",10,608233
+NB036,nonbranded,software_crm,problem,,"soluzioni di sicurezza informatica",30,1254575
+NB037,nonbranded,software_crm,problem,,"soluzioni sicurezza informatica",20,1254578
+NB038,nonbranded,software_crm,problem,,"soluzioni cloud computing",10,1192080
+NB039,nonbranded,software_crm,problem,,"soluzione erp gestionale",10,1437324
+NB040,nonbranded,software_crm,problem,,"soluzioni di sicurezza informatica cisco meraki",10,1254576
+NB041,nonbranded,software_crm,problem,,"soluzioni di cloud computing",10,1192081
+NB042,nonbranded,software_crm,comparison,,"l intelligenza artificiale pro e contro",90,1191878
+NB043,nonbranded,software_crm,comparison,,"confronto antivirus",50,189746
+NB044,nonbranded,software_crm,comparison,,"confronto hosting",20,229606
+NB045,nonbranded,software_crm,comparison,,"hosting a confronto",20,442801
+NB046,nonbranded,software_crm,comparison,,"confronto software gestionali",10,168418
+NB047,nonbranded,software_crm,comparison,,"differenza tra machine learning e artificial intelligence",10,1665458
+NB048,nonbranded,software_crm,alternatives,,"software simili a photoshop",10,1472718
+NB049,nonbranded,marketing,discovery,,"seo significato",2900,1629037
+NB050,nonbranded,marketing,discovery,,"branding significato",1000,105187
+NB051,nonbranded,marketing,discovery,,"brand awareness significato",590,155553
+NB052,nonbranded,marketing,discovery,,"come diventare social media manager",480,1629024
+NB053,nonbranded,marketing,discovery,,"employer branding significato",320,332704
+NB054,nonbranded,marketing,discovery,,"cosa significa seo",210,168004
+NB055,nonbranded,marketing,discovery,,"definizione seo",210,1629227
+NB056,nonbranded,marketing,discovery,,"personal branding significato",210,818097
+NB057,nonbranded,marketing,discovery,,"guida seo",110,1290721
+NB058,nonbranded,marketing,discovery,,"web marketing significato",110,1022694
+NB059,nonbranded,marketing,discovery,,"come si diventa social media manager",90,1629058
+NB060,nonbranded,marketing,discovery,,"strategie seo",90,915365
+NB061,nonbranded,marketing,discovery,,"strategie di web marketing",90,906546
+NB062,nonbranded,marketing,discovery,,"strategie social media marketing",70,866747
+NB063,nonbranded,marketing,discovery,,"seo come funziona",70,1629098
+NB064,nonbranded,marketing,discovery,,"strategie di branding",70,866786
+NB065,nonbranded,marketing,discovery,,"seo significato marketing",70,1629112
+NB066,nonbranded,marketing,discovery,,"web marketing definizione",70,1022693
+NB067,nonbranded,marketing,discovery,,"come fare seo",50,1629016
+NB068,nonbranded,marketing,discovery,,"employer branding esempi",50,3163021
+NB069,nonbranded,marketing,discovery,,"come diventare seo specialist",50,1629082
+NB070,nonbranded,marketing,discovery,,"seo e sem significato",50,1629281
+NB071,nonbranded,marketing,discovery,,"social media manager significato",40,1629303
+NB072,nonbranded,marketing,discovery,,"brand awareness esempi",40,155562
+NB073,nonbranded,marketing,discovery,,"strategie di web marketing b2b",40,892506
+NB074,nonbranded,marketing,discovery,,"yoast seo guida",40,1291673
+NB075,nonbranded,marketing,discovery,,"strategie di content marketing",40,915253
+NB076,nonbranded,marketing,discovery,,"come diventare seo",40,1629017
+NB077,nonbranded,marketing,discovery,,"come fare pubblicità online",30,1629042
+NB078,nonbranded,marketing,discovery,,"social media marketing esempi",30,915377
+NB079,nonbranded,marketing,discovery,,"social media marketing definizione",30,915392
+NB080,nonbranded,marketing,discovery,,"branding esempi",30,121199
+NB081,nonbranded,marketing,discovery,,"come fare il social media manager",20,1629091
+NB082,nonbranded,marketing,discovery,,"come farsi pubblicità online",10,1629151
+NB083,nonbranded,marketing,discovery,,"pubblicità online come funziona",10,3542993
+NB084,nonbranded,marketing,discovery,,"tipi di pubblicità online",10,3546218
+NB085,nonbranded,marketing,discovery,,"guida social media manager",10,407004
+NB086,nonbranded,marketing,discovery,,"strategie social media manager",10,866784
+NB087,nonbranded,marketing,discovery,,"come fare social media marketing",10,1629019
+NB088,nonbranded,marketing,discovery,,"social media marketing significato",10,1629021
+NB089,nonbranded,marketing,problem,,"soluzioni web marketing",50,1205726
+NB090,nonbranded,marketing,problem,,"seo come migliorare",50,1613037
+NB091,nonbranded,marketing,comparison,,"differenza tra social media manager e social media marketing",30,289365
+NB092,nonbranded,marketing,comparison,,"differenza tra web marketing e digital marketing",10,289356
+NB093,nonbranded,marketing,comparison,,"differenza tra digital marketing e social media marketing",10,289360
+NB094,nonbranded,marketing,comparison,,"differenza tra digital marketing e web marketing",10,289357
+NB095,nonbranded,marketing,comparison,,"differenza tra social media marketing e social media manager",10,289366
+NB096,nonbranded,marketing,alternatives,,"alternativa a yoast seo",10,1612697
+NB097,nonbranded,ecommerce_retail,discovery,,"tipi di scarpe",880,1637215
+NB098,nonbranded,ecommerce_retail,discovery,,"e commerce come funziona",720,318186
+NB099,nonbranded,ecommerce_retail,discovery,,"ecommerce come funziona",720,318188
+NB100,nonbranded,ecommerce_retail,discovery,,"come creare un ecommerce",480,262059
+NB101,nonbranded,ecommerce_retail,discovery,,"tipi di scarpe uomo",320,1637222
+NB102,nonbranded,ecommerce_retail,discovery,,"definizione abbigliamento",260,298191
+NB103,nonbranded,ecommerce_retail,discovery,,"tipi di scarpe da donna",260,1637217
+NB104,nonbranded,ecommerce_retail,discovery,,"come sistemare le scarpe",170,236404
+NB105,nonbranded,ecommerce_retail,discovery,,"come fare e commerce",170,180280
+NB106,nonbranded,ecommerce_retail,discovery,,"come sistemare le scarpe con le scatole",170,237178
+NB107,nonbranded,ecommerce_retail,discovery,,"tipi di scollo vestiti",140,1845427
+NB108,nonbranded,ecommerce_retail,discovery,,"e commerce esempi",140,309710
+NB109,nonbranded,ecommerce_retail,discovery,,"tipi di scarpe in inglese",140,1637220
+NB110,nonbranded,ecommerce_retail,discovery,,"come sistemare le scarpe senza scarpiera",110,237188
+NB111,nonbranded,ecommerce_retail,discovery,,"tipi di gioielli",90,953402
+NB112,nonbranded,ecommerce_retail,discovery,,"come cucire vestiti",90,234077
+NB113,nonbranded,ecommerce_retail,discovery,,"come sistemare i vestiti nell armadio",90,237032
+NB114,nonbranded,ecommerce_retail,discovery,,"strategie ecommerce",90,866748
+NB115,nonbranded,ecommerce_retail,discovery,,"strategie di e commerce",90,866947
+NB116,nonbranded,ecommerce_retail,discovery,,"tutti i tipi di scarpe",90,1637231
+NB117,nonbranded,ecommerce_retail,discovery,,"abbigliamento formale significato",70,66391
+NB118,nonbranded,ecommerce_retail,discovery,,"negozio online come funziona",70,662823
+NB119,nonbranded,ecommerce_retail,discovery,,"come sistemare le scarpe nell armadio",70,236488
+NB120,nonbranded,ecommerce_retail,discovery,,"vestiti sobri significato",50,1211154
+NB121,nonbranded,ecommerce_retail,discovery,,"come sistemare i vestiti lunghi nell armadio",40,237030
+NB122,nonbranded,ecommerce_retail,discovery,,"abbigliamento sobrio significato",40,1210476
+NB123,nonbranded,ecommerce_retail,discovery,,"come cucire etichette sui vestiti",30,233317
+NB124,nonbranded,ecommerce_retail,discovery,,"come sistemare i gioielli nell armadio",20,236987
+NB125,nonbranded,ecommerce_retail,discovery,,"come sistemare il make up",10,237051
+NB126,nonbranded,ecommerce_retail,discovery,,"come fare video make up",10,1649176
+NB127,nonbranded,ecommerce_retail,discovery,,"quali sono i prodotti cosmetici",0,3333983
+NB128,nonbranded,ecommerce_retail,discovery,,"cosa si intende con cosmetici",0,3333984
+NB129,nonbranded,ecommerce_retail,comparison,,"versus profumo uomo",90,991551
+NB130,nonbranded,ecommerce_retail,comparison,,"scarpe da trekking meglio alte o basse",30,2899816
+NB131,nonbranded,ecommerce_retail,comparison,,"piattaforme e commerce a confronto",20,782097
+NB132,nonbranded,ecommerce_retail,comparison,,"scarpe trekking meglio alte o basse",20,2901475
+NB133,nonbranded,ecommerce_retail,comparison,,"meglio scarponi o scarpe da trekking",10,2897063
+NB134,nonbranded,ecommerce_retail,comparison,,"ecommerce vs woocommerce",10,1662472
+NB135,nonbranded,ecommerce_retail,comparison,,"scarpe vs pace",10,3506244
+NB136,nonbranded,ecommerce_retail,comparison,,"e commerce b2b vs b2c",10,2580221
+NB137,nonbranded,ecommerce_retail,comparison,,"trekking meglio scarpe alte o basse",10,2903759
+NB138,nonbranded,ecommerce_retail,alternatives,,"profumo simile a creed aventus",90,753797
+NB139,nonbranded,ecommerce_retail,alternatives,,"profumo simile a hypnotic poison",40,2841670
+NB140,nonbranded,ecommerce_retail,alternatives,,"profumo simile a sauvage",30,2837773
+NB141,nonbranded,ecommerce_retail,alternatives,,"scarpe simili a stan smith",20,1633232
+NB142,nonbranded,ecommerce_retail,alternatives,,"profumo simile a dolce e gabbana light blue",20,744259
+NB143,nonbranded,ecommerce_retail,alternatives,,"profumo simile a creed",20,753106
+NB144,nonbranded,ecommerce_retail,alternatives,,"profumo simile a acqua di gio",10,2823825
+NB145,nonbranded,automotive,discovery,,"come pagare il bollo auto online",3600,237840
+NB146,nonbranded,automotive,discovery,,"auto ibrida come funziona",1300,9328
+NB147,nonbranded,automotive,discovery,,"definizione auto",1000,298284
+NB148,nonbranded,automotive,discovery,,"finanziamento auto come funziona",590,352130
+NB149,nonbranded,automotive,discovery,,"tipi di pneumatici",390,933584
+NB150,nonbranded,automotive,discovery,,"tipi di lampadine per auto",210,3327696
+NB151,nonbranded,automotive,discovery,,"auto a idrogeno come funziona",170,10176
+NB152,nonbranded,automotive,discovery,,"tipi di auto elettriche",90,922624
+NB153,nonbranded,automotive,discovery,,"moto definizione",70,629617
+NB154,nonbranded,automotive,discovery,,"auto elettrica come funziona",50,10265
+NB155,nonbranded,automotive,discovery,,"chiave dinamometrica per moto consigli",30,1826162
+NB156,nonbranded,automotive,discovery,,"auto elettrica e benzina come funziona",20,10267
+NB157,nonbranded,automotive,discovery,,"classe di merito moto come funziona",10,217642
+NB158,nonbranded,automotive,discovery,,"quali moto gp",10,822203
+NB159,nonbranded,automotive,discovery,,"come fare video in moto",10,1649161
+NB160,nonbranded,automotive,problem,,"moto guzzi v85tt problemi",720,1995792
+NB161,nonbranded,automotive,problem,,"auto a idrogeno problemi",480,10190
+NB162,nonbranded,automotive,problem,,"auto ibrida problemi",480,10423
+NB163,nonbranded,automotive,problem,,"moto guzzi nevada 750 problemi",260,2013247
+NB164,nonbranded,automotive,problem,,"moto guzzi breva 750 problemi",140,2013011
+NB165,nonbranded,automotive,problem,,"moto guzzi california 1400 problemi",140,2013051
+NB166,nonbranded,automotive,problem,,"climatizzatore auto non funziona",110,1266844
+NB167,nonbranded,automotive,problem,,"moto morini x cape problemi",110,2014013
+NB168,nonbranded,automotive,problem,,"android auto non funziona dopo aggiornamento",90,68193
+NB169,nonbranded,automotive,problem,,"chiave auto non funziona",70,1825845
+NB170,nonbranded,automotive,problem,,"moto guzzi breva 1100 problemi",70,2013000
+NB171,nonbranded,automotive,problem,,"moto guzzi breva 850 problemi",50,2013016
+NB172,nonbranded,automotive,problem,,"moto guzzi v50 problemi",50,2013446
+NB173,nonbranded,automotive,problem,,"moto guzzi v9 problemi",50,2013675
+NB174,nonbranded,automotive,problem,,"moto guzzi v9 roamer problemi",50,2013681
+NB175,nonbranded,automotive,problem,,"moto guzzi v7 problemi",40,2013559
+NB176,nonbranded,automotive,problem,,"moto guzzi v7 iii problemi",30,2013536
+NB177,nonbranded,automotive,problem,,"lampadine led auto problemi",20,1661319
+NB178,nonbranded,automotive,problem,,"maps non funziona su android auto",20,2942129
+NB179,nonbranded,automotive,problem,,"motorola moto g 5g problemi",20,605641
+NB180,nonbranded,automotive,problem,,"moto guzzi v35 problemi",20,2013424
+NB181,nonbranded,automotive,problem,,"moto guzzi v7 classic problemi",20,2013523
+NB182,nonbranded,automotive,comparison,,"confronto pneumatici",390,177660
+NB183,nonbranded,automotive,comparison,,"auto ad idrogeno pro e contro",110,10210
+NB184,nonbranded,automotive,comparison,,"confronto auto drivek",110,3142275
+NB185,nonbranded,automotive,comparison,,"confronto auto elettriche",90,160632
+NB186,nonbranded,automotive,comparison,,"confronto preventivi auto",40,217440
+NB187,nonbranded,automotive,comparison,,"meglio auto elettrica o ibrida",30,572741
+NB188,nonbranded,automotive,comparison,,"meglio auto ibrida o benzina",30,572742
+NB189,nonbranded,automotive,comparison,,"meglio auto ibrida o gpl",30,572745
+NB190,nonbranded,automotive,comparison,,"moto morini x cape vs benelli trk",10,2014024
+NB191,nonbranded,automotive,comparison,,"moto morini x cape vs cf moto 650",10,2014025
+NB192,nonbranded,automotive,comparison,,"moto morini x cape vs tenere 700",10,2014026
+NB193,nonbranded,travel,discovery,,"voli charter significato",590,2909736
+NB194,nonbranded,travel,discovery,,"definizione viaggio",480,299360
+NB195,nonbranded,travel,discovery,,"viaggio definizione",480,1013041
+NB196,nonbranded,travel,discovery,,"definizione vacanze",260,289038
+NB197,nonbranded,travel,discovery,,"idee viaggio capodanno",260,457182
+NB198,nonbranded,travel,discovery,,"come vestirsi in viaggio",40,235199
+NB199,nonbranded,travel,discovery,,"come stirare senza ferro in viaggio",30,234715
+NB200,nonbranded,travel,discovery,,"viaggio in giamaica consigli",30,1003221
+NB201,nonbranded,travel,discovery,,"vacanze repubblica dominicana consigli",30,1004431
+NB202,nonbranded,travel,discovery,,"strategie di marketing per hotel",20,866987
+NB203,nonbranded,travel,discovery,,"newsletter hotel esempi",20,1271026
+NB204,nonbranded,travel,discovery,,"come fare video viaggio",20,1649257
+NB205,nonbranded,travel,discovery,,"vacanze sul conero consigli",20,3271641
+NB206,nonbranded,travel,discovery,,"come creare un video delle vacanze",10,262803
+NB207,nonbranded,travel,discovery,,"come fare un video delle vacanze",10,263037
+NB208,nonbranded,travel,discovery,,"come fare un video diario di viaggio",10,263053
+NB209,nonbranded,travel,discovery,,"come fare un vlog di viaggio",10,263125
+NB210,nonbranded,travel,discovery,,"guida tascabile da viaggio",10,403094
+NB211,nonbranded,travel,discovery,,"idee viaggio capodanno 2023",10,457069
+NB212,nonbranded,travel,discovery,,"riga guida viaggio",10,846187
+NB213,nonbranded,travel,discovery,,"viaggio a bruxelles consigli",10,1003015
+NB214,nonbranded,travel,discovery,,"esempi di newsletter per hotel",10,1270666
+NB215,nonbranded,travel,discovery,,"come fare video vacanze",10,1649244
+NB216,nonbranded,travel,comparison,,"comparazione voli",140,193668
+NB217,nonbranded,travel,comparison,,"siti comparazione voli",140,1830319
+NB218,nonbranded,travel,alternatives,,"tour operator simili a viaggi avventure nel mondo",10,943993
+NB219,nonbranded,travel,pre_purchase,,"voli economici offerte",18100,998186
+NB220,nonbranded,travel,pre_purchase,,"offerte voli",14800,693232
+NB221,nonbranded,travel,pre_purchase,,"voli in offerta",14800,997894
+NB222,nonbranded,travel,pre_purchase,,"crociere offerte",9900,203842
+NB223,nonbranded,travel,pre_purchase,,"crociere in offerta",9900,203854
+NB224,nonbranded,travel,pre_purchase,,"offerte voli ryanair",6600,693236
+NB225,nonbranded,travel,pre_purchase,,"ryanair offerta voli",6600,837996
+NB226,nonbranded,travel,pre_purchase,,"offerte viaggi",4400,700125
+NB227,nonbranded,travel,pre_purchase,,"offerte di viaggio",4400,700186
+NB228,nonbranded,travel,pre_purchase,,"offerta di viaggi",4400,700243
+NB229,nonbranded,travel,pre_purchase,,"viaggi in giappone costi",3600,1003191
+NB230,nonbranded,travel,pre_purchase,,"last minute offerte viaggi",2900,541100
+NB231,nonbranded,travel,pre_purchase,,"offerte hotel trenino del bernina",2400,684972
+NB232,nonbranded,travel,pre_purchase,,"msc crociere offerte",2400,609572
+NB233,nonbranded,travel,pre_purchase,,"offerte hotel",1000,684968
+NB234,nonbranded,travel,pre_purchase,,"offerte volo piu hotel",1000,693238
+NB235,nonbranded,travel,pre_purchase,,"crociere promo",880,203857
+NB236,nonbranded,travel,pre_purchase,,"hotel milano offerte",720,435711
+NB237,nonbranded,travel,pre_purchase,,"volo hotel offerte",720,997948
+NB238,nonbranded,travel,pre_purchase,,"crociera fiordi norvegesi prezzi",590,213929
+NB239,nonbranded,travel,pre_purchase,,"prezzo crociera fiordi norvegesi",590,792577
+NB240,nonbranded,travel,pre_purchase,,"hotel con spa trentino offerte",480,448719
+NB241,nonbranded,energy,comparison,,"confronto bolletta luce",1000,2566967
+NB242,nonbranded,energy,comparison,,"confronto prezzi energia elettrica",390,169441
+NB243,nonbranded,energy,comparison,,"confronto energia elettrica",390,169442
+NB244,nonbranded,energy,comparison,,"confronto tariffe energia elettrica",320,169446
+NB245,nonbranded,energy,comparison,,"confronto fornitori energia elettrica",170,2565944
+NB246,nonbranded,energy,comparison,,"fotovoltaico pro e contro",140,338615
+NB247,nonbranded,energy,comparison,,"confronto costi energia elettrica",140,2566205
+NB248,nonbranded,energy,comparison,,"pro e contro energia solare",110,748680
+NB249,nonbranded,energy,comparison,,"pannelli solari pro e contro",90,748104
+NB250,nonbranded,energy,comparison,,"confronto bollette energia elettrica",90,2567590
+NB251,nonbranded,energy,comparison,,"offerte energia elettrica confronto",90,2569566
+NB252,nonbranded,energy,comparison,,"comparazione energia elettrica",70,2565585
+NB253,nonbranded,energy,comparison,,"comparazione tariffe energia elettrica",70,2566892
+NB254,nonbranded,energy,comparison,,"comparazione offerte energia elettrica",70,2568119
+NB255,nonbranded,energy,comparison,,"fotovoltaico con pompa di calore pro e contro",50,338585
+NB256,nonbranded,energy,comparison,,"comparazione prezzi energia elettrica",50,2565836
+NB257,nonbranded,energy,comparison,,"pannelli solari sottovuoto pro e contro",40,748421
+NB258,nonbranded,energy,comparison,,"tariffe energia elettrica aziende confronto",40,924263
+NB259,nonbranded,energy,comparison,,"confronto gestori energia elettrica",40,2566369
+NB260,nonbranded,energy,comparison,,"comparazione costi energia elettrica",40,2566462
+NB261,nonbranded,energy,comparison,,"confronto tariffe energia elettrica e gas",40,2569980
+NB262,nonbranded,energy,comparison,,"confronto prezzi energia elettrica casa",30,2568958
+NB263,nonbranded,energy,comparison,,"meglio eolico o fotovoltaico",20,577340
+NB264,nonbranded,energy,comparison,,"autorità energia elettrica e gas confronto tariffe",20,2567324
+NB265,nonbranded,energy,comparison,,"confronto fornitore energia elettrica",20,2568153
+NB266,nonbranded,energy,comparison,,"gestori energia elettrica e gas confronto",20,2569846
+NB267,nonbranded,energy,comparison,,"confronto prezzi energia elettrica e gas",20,2569970
+NB268,nonbranded,energy,comparison,,"fotovoltaico pro e contro 2022",10,338469
+NB269,nonbranded,energy,comparison,,"meglio pannelli solari o fotovoltaici",10,577343
+NB270,nonbranded,energy,comparison,,"confronto prezzi energia elettrica mercato libero",10,2566952
+NB271,nonbranded,energy,comparison,,"contratti energia elettrica confronto",10,2567036
+NB272,nonbranded,energy,comparison,,"confronto tariffe energia elettrica mercato libero",10,2567270
+NB273,nonbranded,energy,comparison,,"confronto offerte energia elettrica casa",10,2567778
+NB274,nonbranded,energy,comparison,,"compagnie energia elettrica confronto",10,2567993
+NB275,nonbranded,energy,comparison,,"confronto fornitori energia elettrica e gas",10,2567996
+NB276,nonbranded,energy,comparison,,"bolletta luce confronto tariffe",10,2568007
+NB277,nonbranded,energy,comparison,,"confronto tariffe energia elettrica partita iva",10,2568477
+NB278,nonbranded,energy,comparison,,"fornitura energia elettrica confronto tariffe",10,2568486
+NB279,nonbranded,energy,comparison,,"gestori energia elettrica confronto prezzi",10,2568795
+NB280,nonbranded,energy,comparison,,"fornitori energia elettrica confronto tariffe",10,2568843
+NB281,nonbranded,energy,comparison,,"energia elettrica confronto tariffe e offerte luce",10,2568901
+NB282,nonbranded,energy,comparison,,"sito comparazione prezzi energia elettrica",10,2568912
+NB283,nonbranded,energy,comparison,,"confronto prezzi bollette energia elettrica",10,2569207
+NB284,nonbranded,energy,comparison,,"confronto tariffe gestori energia elettrica",10,2569283
+NB285,nonbranded,energy,comparison,,"comparazione tariffe energia elettrica e gas",10,2569387
+NB286,nonbranded,energy,comparison,,"confronto offerte mercato libero energia elettrica",10,2569388
+NB287,nonbranded,energy,comparison,,"comparazione offerte energia elettrica domestica",10,2569461
+NB288,nonbranded,energy,comparison,,"fotovoltaico pro e contro 2021",0,338875
+NB289,nonbranded,finance,problem,,"assicurazione mutuo perdita lavoro",390,58490
+NB290,nonbranded,finance,problem,,"assicurazione perdita lavoro mutuo",390,58535
+NB291,nonbranded,finance,problem,,"mutuo assicurazione perdita lavoro",390,622134
+NB292,nonbranded,finance,problem,,"assicurazione condominiale copre perdite acqua",320,59652
+NB293,nonbranded,finance,problem,,"carta di credito bloccata",170,184197
+NB294,nonbranded,finance,problem,,"mutuo sal problemi",170,597529
+NB295,nonbranded,finance,problem,,"polizza mutuo perdita lavoro",110,795515
+NB296,nonbranded,finance,problem,,"polizza perdita lavoro mutuo",110,795679
+NB297,nonbranded,finance,problem,,"assicurazione finanziamento perdita lavoro findomestic",90,59700
+NB298,nonbranded,finance,problem,,"carta di credito non funziona",70,184204
+NB299,nonbranded,finance,problem,,"assicurazione casa perdite acqua",70,56061
+NB300,nonbranded,finance,problem,,"soluzione prestito",70,1377003
+NB301,nonbranded,finance,problem,,"assicurazione guasti casa",50,58734
+NB302,nonbranded,finance,problem,,"assicurazione perdita acqua",50,59014
+NB303,nonbranded,finance,problem,,"soluzione tasse azioni",40,893160
+NB304,nonbranded,finance,problem,,"mutuo perdita lavoro",40,622143
+NB305,nonbranded,finance,problem,,"prestiti con problemi crif",40,2866627
+NB306,nonbranded,finance,problem,,"perdita lavoro e mutuo",40,795951
+NB307,nonbranded,finance,problem,,"perdita lavoro mutuo",40,795952
+NB308,nonbranded,finance,problem,,"carta di credito non funziona online",30,184205
+NB309,nonbranded,finance,problem,,"assicurazione vita e perdita lavoro",30,58760
+NB310,nonbranded,finance,problem,,"assicurazione vita perdita lavoro",30,58923
+NB311,nonbranded,finance,problem,,"perdita acqua condominio assicurazione",20,795949
+NB312,nonbranded,finance,problem,,"assicurazione mutuo vita e perdita lavoro",20,59050
+NB313,nonbranded,finance,problem,,"assicurazione mutuo casa perdita lavoro",20,59118
+NB314,nonbranded,finance,problem,,"assicurazione mutuo in caso di perdita lavoro",20,59796
+NB315,nonbranded,finance,problem,,"mutuo ristrutturazione unica soluzione",20,596862
+NB316,nonbranded,finance,problem,,"polizza vita e perdita lavoro mutuo",20,795863
+NB317,nonbranded,finance,problem,,"assicurazione perdite acqua casa",20,58831
+NB318,nonbranded,finance,problem,,"criptovalute in perdita oggi",10,1192597
+NB319,nonbranded,finance,problem,,"criptovalute perdita",10,1192614
+NB320,nonbranded,finance,problem,,"assicurazione morte e perdita lavoro",10,59256
+NB321,nonbranded,finance,problem,,"assicurazione casa perdita lavoro",10,59613
+NB322,nonbranded,finance,problem,,"assicurazione perdita lavoro genertel",10,59834
+NB323,nonbranded,finance,problem,,"assicurazione mutuo perdita lavoro e morte",10,58618
+NB324,nonbranded,finance,problem,,"assicurazione casa mutuo morte perdita lavoro",10,59604
+NB325,nonbranded,finance,problem,,"assicurazione mutuo perdita lavoro allianz",10,59803
+NB326,nonbranded,finance,problem,,"assicurazioni mutuo prima casa perdita lavoro",10,60121
+NB327,nonbranded,finance,problem,,"assicurazione vita e perdita lavoro per mutuo",10,58776
+NB328,nonbranded,finance,problem,,"assicurazione mutuo vita perdita lavoro",10,59275
+NB329,nonbranded,finance,problem,,"assicurazione mutuo morte perdita lavoro",10,59800
+NB330,nonbranded,finance,problem,,"perdita di lavoro e mutuo",10,795950
+NB331,nonbranded,finance,problem,,"perdita criptovalute",10,1192852
+NB332,nonbranded,finance,problem,,"criptovalute in perdita",10,3492783
+NB333,nonbranded,finance,comparison,,"assicurazione auto confronto",5400,55596
+NB334,nonbranded,finance,comparison,,"prestito confronto",1300,767398
+NB335,nonbranded,finance,comparison,,"etf pro e contro",210,3433753
+NB336,nonbranded,finance,comparison,,"conto corrente confronto costi",30,2660678
+NB337,nonbranded,consumer_tech,discovery,,"come fare video professionali con smartphone",70,1649187
+NB338,nonbranded,consumer_tech,discovery,,"come vedere la tv su smartphone",40,237439
+NB339,nonbranded,consumer_tech,discovery,,"come guardare la tv sul tablet",20,236747
+NB340,nonbranded,consumer_tech,discovery,,"come fare un video con lo smartphone",10,262999
+NB341,nonbranded,consumer_tech,discovery,,"come fare un video con smartphone",10,263014
+NB342,nonbranded,consumer_tech,discovery,,"come fare video con smartphone",10,1649110
+NB343,nonbranded,consumer_tech,problem,,"whatsapp web su tablet non funziona",10,1025074
+NB344,nonbranded,consumer_tech,problem,,"whatsapp web non funziona su tablet",10,2945243
+NB345,nonbranded,consumer_tech,comparison,,"confronto smartphone",12100,1302578
+NB346,nonbranded,consumer_tech,comparison,,"miglior sito confronto smartphone",720,587467
+NB347,nonbranded,consumer_tech,comparison,,"meglio più ram o processore più potente smartphone",70,650209
+NB348,nonbranded,consumer_tech,comparison,,"è meglio il tablet o il pc portatile",70,724378
+NB349,nonbranded,consumer_tech,comparison,,"meglio chromebook o notebook",50,612293
+NB350,nonbranded,consumer_tech,comparison,,"meglio notebook o chromebook",20,612298
+NB351,nonbranded,consumer_tech,comparison,,"meglio kindle o tablet",10,613403
+NB352,nonbranded,consumer_tech,comparison,,"notebook convertibili pro e contro",10,669440
+NB353,nonbranded,consumer_tech,comparison,,"meglio un chromebook o un notebook",10,612302
+NB354,nonbranded,consumer_tech,comparison,,"meglio tablet o kindle",10,613404
+NB355,nonbranded,consumer_tech,pre_purchase,,"tablet in offerta",27100,950416
+NB356,nonbranded,consumer_tech,pre_purchase,,"smartphone offerte",14800,1299709
+NB357,nonbranded,consumer_tech,pre_purchase,,"offerta smartphone",9900,697040
+NB358,nonbranded,consumer_tech,pre_purchase,,"computer portatile offerte",6600,206268
+NB359,nonbranded,consumer_tech,pre_purchase,,"computer portatile in offerta",6600,206366
+NB360,nonbranded,consumer_tech,pre_purchase,,"notebook offerte",5400,669081
+NB361,nonbranded,consumer_tech,pre_purchase,,"notebook in offerta",5400,669108
+NB362,nonbranded,consumer_tech,pre_purchase,,"offerte con smartphone incluso",5400,685593
+NB363,nonbranded,consumer_tech,pre_purchase,,"smartphone migliore",5400,1302358
+NB364,nonbranded,consumer_tech,pre_purchase,,"smartphone i migliori",5400,2863656
+NB365,nonbranded,consumer_tech,pre_purchase,,"offerta smartphone incluso",5000,683223
+NB366,nonbranded,consumer_tech,pre_purchase,,"offerta wind smartphone incluso",5000,683306
+NB367,nonbranded,consumer_tech,pre_purchase,,"offerte con smartphone wind",5000,683451
+NB368,nonbranded,consumer_tech,pre_purchase,,"miglior smartphone qualità prezzo",4400,587118
+NB369,nonbranded,consumer_tech,pre_purchase,,"smartphone migliore qualità prezzo",4400,1303595
+NB370,nonbranded,consumer_tech,pre_purchase,,"fotocamera migliore smartphone",4400,1304202
+NB371,nonbranded,consumer_tech,pre_purchase,,"migliori smartphone per fotocamera",4400,1304223
+NB372,nonbranded,consumer_tech,pre_purchase,,"smartphone migliori qualità prezzo",4400,2861410
+NB373,nonbranded,consumer_tech,pre_purchase,,"offerta sottocosto smartphone",3600,685794
+NB374,nonbranded,consumer_tech,pre_purchase,,"wind offerta con smartphone",3600,1019057
+NB375,nonbranded,consumer_tech,pre_purchase,,"offerte smartphone sottocosto",2900,682486
+NB376,nonbranded,consumer_tech,pre_purchase,,"offerte wind smartphone 0 euro",2900,1301090
+NB377,nonbranded,consumer_tech,pre_purchase,,"i migliori smartphone sotto i 300 euro",2900,1303253
+NB378,nonbranded,consumer_tech,pre_purchase,,"miglior tablet qualità prezzo",2400,611585
+NB379,nonbranded,consumer_tech,pre_purchase,,"tablet offerte",2400,950530
+NB380,nonbranded,consumer_tech,pre_purchase,,"migliori smartphone sotto i 200 euro",2400,1300995
+NB381,nonbranded,consumer_tech,pre_purchase,,"migliori smartphone a 200 euro",2400,2861442
+NB382,nonbranded,consumer_tech,pre_purchase,,"smartphone migliore 200 euro",2400,2863711
+NB383,nonbranded,consumer_tech,pre_purchase,,"migliori tablet economici",1900,611613
+NB384,nonbranded,consumer_tech,pre_purchase,,"migliore fotocamera smartphone fascia media",1900,2862502
+NB385,nonbranded,food_beverage,discovery,,"tipi di pasta",14800,3588244
+NB386,nonbranded,food_beverage,discovery,,"idee pasta fredda",5400,461620
+NB387,nonbranded,food_beverage,discovery,,"tipi di caffè",2400,947682
+NB388,nonbranded,food_beverage,discovery,,"tipi di pasta corta",1900,3589551
+NB389,nonbranded,food_beverage,discovery,,"idee pasta veloce",1600,461697
+NB390,nonbranded,food_beverage,discovery,,"pasta idee veloci",1600,759685
+NB391,nonbranded,food_beverage,discovery,,"come vestirsi per una cena al ristorante",590,235355
+NB392,nonbranded,food_beverage,discovery,,"esempi di testamento biologico",480,1409719
+NB393,nonbranded,food_beverage,discovery,,"tipi di vini rossi",480,957706
+NB394,nonbranded,food_beverage,discovery,,"tipi di vino rosso",390,957537
+NB395,nonbranded,food_beverage,discovery,,"tipi di caffè al bar",260,2565185
+NB396,nonbranded,food_beverage,discovery,,"come vestirsi per una cena al ristorante donna",260,235357
+NB397,nonbranded,food_beverage,discovery,,"tipi di vini bianchi",260,957705
+NB398,nonbranded,food_beverage,discovery,,"tipi di vino bianco",260,957707
+NB399,nonbranded,food_beverage,discovery,,"25 tipi di caffè",170,2562451
+NB400,nonbranded,food_beverage,discovery,,"come vestirsi per una cena al ristorante con amici",170,235356
+NB401,nonbranded,food_beverage,discovery,,"perchè la macchina del caffè perde acqua",110,807817
+NB402,nonbranded,food_beverage,discovery,,"tipi di caffè nespresso",70,947635
+NB403,nonbranded,food_beverage,discovery,,"cosa indossare per un pranzo al ristorante",30,235716
+NB404,nonbranded,food_beverage,problem,,"macchina caffè de longhi risoluzione problemi",590,607690
+NB405,nonbranded,food_beverage,problem,,"macchina caffè delonghi risoluzione problemi",590,607693
+NB406,nonbranded,food_beverage,problem,,"macchina caffè philips 2200 problemi",480,606386
+NB407,nonbranded,food_beverage,problem,,"faber macchina caffè problemi",320,358875
+NB408,nonbranded,food_beverage,problem,,"macchina caffè ariete problemi",320,607650
+NB409,nonbranded,food_beverage,problem,,"gaggia macchina caffè problemi",260,406676
+NB410,nonbranded,food_beverage,problem,,"macchina caffè silvercrest problemi",210,607805
+NB411,nonbranded,food_beverage,problem,,"macchina caffè philips problemi",170,606772
+NB412,nonbranded,food_beverage,problem,,"macchina caffè saeco problemi",170,607792
+NB413,nonbranded,food_beverage,problem,,"macchina caffè ariete vintage problemi",140,607653
+NB414,nonbranded,food_beverage,problem,,"macchina caffè de longhi problemi",140,607689
+NB415,nonbranded,food_beverage,problem,,"macchina caffè frog problemi",140,607718
+NB416,nonbranded,food_beverage,problem,,"macchina caffè de longhi magnifica problemi",110,607687
+NB417,nonbranded,food_beverage,problem,,"macchina caffè saeco incanto problemi",40,607788
+NB418,nonbranded,food_beverage,problem,,"macchina caffè saeco poemia problemi",40,607791
+NB419,nonbranded,food_beverage,problem,,"problemi macchina caffe de longhi",30,783231
+NB420,nonbranded,food_beverage,problem,,"pasta a lenta essiccazione gragnano",10,1325288
+NB421,nonbranded,food_beverage,problem,,"macchina caffè nespresso krups problemi",10,607548
+NB422,nonbranded,food_beverage,problem,,"macchina caffe dolce gusto guasti",10,607621
+NB423,nonbranded,food_beverage,problem,,"macchina caffè illy y3 problemi",10,607731
+NB424,nonbranded,food_beverage,comparison,,"meglio caffè lollo o borbone",170,608011
+NB425,nonbranded,food_beverage,comparison,,"epilazione pasta di zucchero pro e contro",40,333617
+NB426,nonbranded,food_beverage,comparison,,"caffe borbone meglio rosso o blu",10,241154
+NB427,nonbranded,food_beverage,comparison,,"lollo caffè vs borbone",10,3510491
+NB428,nonbranded,food_beverage,pre_purchase,,"macchina da caffè offerta",9900,631188
+NB429,nonbranded,food_beverage,pre_purchase,,"prezzo vino sassicaia",2400,802860
+NB430,nonbranded,food_beverage,pre_purchase,,"recensioni di ristoranti",1600,835200
+NB431,nonbranded,food_beverage,pre_purchase,,"migliore pasta italiana",1000,3591375
+NB432,nonbranded,food_beverage,pre_purchase,,"miele millefiori biologico prezzo",30,1970890
+NB433,nonbranded,professional_services,problem,,"avvocato per problemi condominiali",110,1537250
+NB434,nonbranded,professional_services,problem,,"avvocato problemi condominiali",110,1537360
+NB435,nonbranded,professional_services,problem,,"avvocato per problemi familiari",30,1295695
+NB436,nonbranded,professional_services,problem,,"avvocato per problemi di lavoro",10,10838
+NB437,nonbranded,professional_services,comparison,,"commercialista online pro e contro",10,166732
+NB438,nonbranded,professional_services,pre_purchase,,"lavoro avvocato offerte",1300,515744
+NB439,nonbranded,professional_services,pre_purchase,,"offerte di lavoro avvocato",1300,681615
+NB440,nonbranded,professional_services,pre_purchase,,"preventivo avvocato",1000,735336
+NB441,nonbranded,professional_services,pre_purchase,,"tariffa avvocato stragiudiziale",880,922775
+NB442,nonbranded,professional_services,pre_purchase,,"avvocato giulia bongiorno prezzi",590,11245
+NB443,nonbranded,professional_services,pre_purchase,,"consulenza avvocato quanto costa",480,161236
+NB444,nonbranded,professional_services,pre_purchase,,"calcolo preventivo avvocato",480,248492
+NB445,nonbranded,professional_services,pre_purchase,,"costi di un avvocato",320,161335
+NB446,nonbranded,professional_services,pre_purchase,,"tariffa avvocato penale",320,922774
+NB447,nonbranded,professional_services,pre_purchase,,"commercialista online migliore",260,166571
+NB448,nonbranded,professional_services,pre_purchase,,"costi avvocato per separazione consensuale",260,1295719
+NB449,nonbranded,professional_services,pre_purchase,,"tariffa commercialista",170,925703
+NB450,nonbranded,professional_services,pre_purchase,,"tariffe mediazione avvocato",170,922788
+NB451,nonbranded,professional_services,pre_purchase,,"quanto costa la dichiarazione dei redditi dal commercialista",140,823077
+NB452,nonbranded,professional_services,pre_purchase,,"separazione consensuale unico avvocato costi",110,1295646
+NB453,nonbranded,professional_services,pre_purchase,,"avvocato migliore",110,1537882
+NB454,nonbranded,professional_services,pre_purchase,,"commercialista online prezzi",90,166556
+NB455,nonbranded,professional_services,pre_purchase,,"preventivo commercialista",90,746034
+NB456,nonbranded,professional_services,pre_purchase,,"separazione costi avvocato",90,1296887
+NB457,nonbranded,professional_services,pre_purchase,,"consulenza avvocato prezzo",70,161235
+NB458,nonbranded,professional_services,pre_purchase,,"prezzi consulenza avvocato",70,735363
+NB459,nonbranded,professional_services,pre_purchase,,"prezzo commercialista",50,746041
+NB460,nonbranded,professional_services,pre_purchase,,"offerte avvocato",50,681617
+NB461,nonbranded,professional_services,pre_purchase,,"commercialista prezzi",40,166674
+NB462,nonbranded,professional_services,pre_purchase,,"avvocato divorzista costi",30,10716
+NB463,nonbranded,professional_services,pre_purchase,,"migliore studio legale diritto del lavoro",30,572939
+NB464,nonbranded,professional_services,pre_purchase,,"prezzo avvocato penalista",30,2120594
+NB465,nonbranded,professional_services,pre_purchase,,"commercialista milano prezzi",20,166610
+NB466,nonbranded,professional_services,pre_purchase,,"gestionale studio legale prezzi",20,388101
+NB467,nonbranded,professional_services,pre_purchase,,"costi divorzio consensuale senza avvocato",20,1295975
+NB468,nonbranded,professional_services,pre_purchase,,"prezzo avvocato per separazione consensuale",20,1296706
+NB469,nonbranded,professional_services,pre_purchase,,"tariffa avvocato separazione consensuale",20,3185391
+NB470,nonbranded,professional_services,pre_purchase,,"commercialista on line costi flextax",10,166814
+NB471,nonbranded,professional_services,pre_purchase,,"commercialista on line prezzi",10,166816
+NB472,nonbranded,professional_services,pre_purchase,,"commercialista online conviene",10,166819
+NB473,nonbranded,professional_services,pre_purchase,,"preventivo commercialista online",10,746038
+NB474,nonbranded,professional_services,pre_purchase,,"tariffa commercialista per dichiarazione dei redditi",10,925704
+NB475,nonbranded,professional_services,pre_purchase,,"tariffe commercialista 2022",10,925717
+NB476,nonbranded,professional_services,pre_purchase,,"avvocato bongiorno prezzi",10,11125
+NB477,nonbranded,professional_services,pre_purchase,,"tariffe avvocato immigrazione",10,922771
+NB478,nonbranded,professional_services,pre_purchase,,"tariffa consulenza avvocato",10,922777
+NB479,nonbranded,professional_services,pre_purchase,,"separazione consensuale costi senza avvocato",10,1296847
+NB480,nonbranded,professional_services,pre_purchase,,"tariffa avvocato divorzio congiunto",10,3185390
+C01,control,software_crm,control,Salesforce,"Per cosa è conosciuto Salesforce e quali prodotti o servizi offre in Italia?",,
+C02,control,software_crm,control,"Microsoft Dynamics","Per cosa è conosciuto Microsoft Dynamics e quali prodotti o servizi offre in Italia?",,
+C03,control,marketing,control,HubSpot,"Per cosa è conosciuto HubSpot e quali prodotti o servizi offre in Italia?",,
+C04,control,marketing,control,Semrush,"Per cosa è conosciuto Semrush e quali prodotti o servizi offre in Italia?",,
+C05,control,ecommerce_retail,control,Shopify,"Per cosa è conosciuto Shopify e quali prodotti o servizi offre in Italia?",,
+C06,control,ecommerce_retail,control,Amazon,"Per cosa è conosciuto Amazon e quali prodotti o servizi offre in Italia?",,
+C07,control,automotive,control,Toyota,"Per cosa è conosciuto Toyota e quali prodotti o servizi offre in Italia?",,
+C08,control,automotive,control,Tesla,"Per cosa è conosciuto Tesla e quali prodotti o servizi offre in Italia?",,
+C09,control,travel,control,Booking,"Per cosa è conosciuto Booking e quali prodotti o servizi offre in Italia?",,
+C10,control,travel,control,Ryanair,"Per cosa è conosciuto Ryanair e quali prodotti o servizi offre in Italia?",,
+C11,control,energy,control,Enel,"Per cosa è conosciuto Enel e quali prodotti o servizi offre in Italia?",,
+C12,control,energy,control,"Eni Plenitude","Per cosa è conosciuto Eni Plenitude e quali prodotti o servizi offre in Italia?",,
+C13,control,finance,control,"Intesa Sanpaolo","Per cosa è conosciuto Intesa Sanpaolo e quali prodotti o servizi offre in Italia?",,
+C14,control,finance,control,Generali,"Per cosa è conosciuto Generali e quali prodotti o servizi offre in Italia?",,
+C15,control,consumer_tech,control,Apple,"Per cosa è conosciuto Apple e quali prodotti o servizi offre in Italia?",,
+C16,control,consumer_tech,control,Samsung,"Per cosa è conosciuto Samsung e quali prodotti o servizi offre in Italia?",,
+C17,control,food_beverage,control,Barilla,"Per cosa è conosciuto Barilla e quali prodotti o servizi offre in Italia?",,
+C18,control,food_beverage,control,Lavazza,"Per cosa è conosciuto Lavazza e quali prodotti o servizi offre in Italia?",,
+C19,control,professional_services,control,Deloitte,"Per cosa è conosciuto Deloitte e quali prodotti o servizi offre in Italia?",,
+C20,control,professional_services,control,PwC,"Per cosa è conosciuto PwC e quali prodotti o servizi offre in Italia?",,

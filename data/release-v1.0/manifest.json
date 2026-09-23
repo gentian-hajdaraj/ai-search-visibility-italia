@@ -1,0 +1,111 @@
+{
+    "panel_version": "it-ai-search-v1.0",
+    "generated_at": "2026-09-03T20:00:19+00:00",
+    "methodology": {
+        "nonbranded_queries": 480,
+        "controls": 20,
+        "total": 500,
+        "sector_quota": 48,
+        "intent_quota": {
+            "discovery": 170,
+            "problem": 100,
+            "comparison": 100,
+            "alternatives": 10,
+            "pre_purchase": 100
+        },
+        "selection": "deterministic high-confidence research pool; max-flow sector/intent allocation; subcategory round-robin; family dedupe",
+        "minimum_volume": 0,
+        "volume_policy": "volume used for ranking only; low-volume queries allowed for sparse quota cells",
+        "nonbranded_entity_rule": "exclude strict_legacy_entity, verified_legacy_alias, verified_brand_entity"
+    },
+    "research_sectors": [
+        "software_crm",
+        "marketing",
+        "ecommerce_retail",
+        "automotive",
+        "travel",
+        "energy",
+        "finance",
+        "consumer_tech",
+        "food_beverage",
+        "professional_services"
+    ],
+    "quota_matrix": {
+        "software_crm": {
+            "discovery": 35,
+            "problem": 6,
+            "comparison": 6,
+            "alternatives": 1,
+            "pre_purchase": 0
+        },
+        "marketing": {
+            "discovery": 40,
+            "problem": 2,
+            "comparison": 5,
+            "alternatives": 1,
+            "pre_purchase": 0
+        },
+        "ecommerce_retail": {
+            "discovery": 32,
+            "problem": 0,
+            "comparison": 9,
+            "alternatives": 7,
+            "pre_purchase": 0
+        },
+        "automotive": {
+            "discovery": 15,
+            "problem": 22,
+            "comparison": 11,
+            "alternatives": 0,
+            "pre_purchase": 0
+        },
+        "travel": {
+            "discovery": 23,
+            "problem": 0,
+            "comparison": 2,
+            "alternatives": 1,
+            "pre_purchase": 22
+        },
+        "energy": {
+            "discovery": 0,
+            "problem": 0,
+            "comparison": 48,
+            "alternatives": 0,
+            "pre_purchase": 0
+        },
+        "finance": {
+            "discovery": 0,
+            "problem": 44,
+            "comparison": 4,
+            "alternatives": 0,
+            "pre_purchase": 0
+        },
+        "consumer_tech": {
+            "discovery": 6,
+            "problem": 2,
+            "comparison": 10,
+            "alternatives": 0,
+            "pre_purchase": 30
+        },
+        "food_beverage": {
+            "discovery": 19,
+            "problem": 20,
+            "comparison": 4,
+            "alternatives": 0,
+            "pre_purchase": 5
+        },
+        "professional_services": {
+            "discovery": 0,
+            "problem": 4,
+            "comparison": 1,
+            "alternatives": 0,
+            "pre_purchase": 43
+        }
+    },
+    "family_dedupe_relaxed": 32,
+    "hashes": {
+        "panel-nonbranded-480.csv": "b8014a60533c699d1746ccb6d3a30301e85883f4e8fad2fd8143391afde54a36",
+        "panel-controls-20.csv": "7b2bd0d226780ea99cb7ed6831c6a9f5b451413e9edc3138d733bf95dd4be7da",
+        "panel-500.csv": "c39b8f8e201bad7718d8233d3c7563f7a115530fb55bd293a18982c7665ac214"
+    }
+}
