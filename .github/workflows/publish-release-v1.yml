@@ -1,0 +1,52 @@
+name: Publish research release v1.0
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/publish-release-v1.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Ensure v1.0 release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if gh release view v1.0 >/dev/null 2>&1; then
+            echo "Release v1.0 already exists."
+            exit 0
+          fi
+
+          gh release create v1.0 \
+            data/release-v1.0/panel-500.csv \
+            data/release-v1.0/research-summary-v1.0.json \
+            data/release-v1.0/manifest.json \
+            --title "AI Search Visibility in Italia — Research Dataset v1.0" \
+            --notes-file - <<'EOF'
+          Official GitHub companion release for **AI Search Visibility in Italia — Dataset e metodologia v1.0**.
+
+          **Canonical archival identifier:** https://doi.org/10.5281/zenodo.22640375
+
+          This release mirrors selected public research assets for convenient access:
+
+          - frozen 500-query panel;
+          - machine-readable research summary;
+          - panel methodology manifest.
+
+          The DOI-backed Zenodo record remains the canonical archival release.
+
+          Research report: https://telescop.it/research/ai-search-visibility-italia/
+          EOF
