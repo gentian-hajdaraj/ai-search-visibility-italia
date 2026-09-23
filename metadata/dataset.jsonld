@@ -14,8 +14,16 @@
   "temporalCoverage": "2026-09-03/2026-09-05",
   "creator": {
     "@type": "Person",
+    "@id": "https://orcid.org/0009-0003-6955-460X",
     "name": "Gentian Hajdaraj",
-    "url": "https://gentian.it/"
+    "url": "https://gentian.it/",
+    "identifier": "https://orcid.org/0009-0003-6955-460X",
+    "sameAs": [
+      "https://orcid.org/0009-0003-6955-460X",
+      "https://github.com/gentian-hajdaraj",
+      "https://huggingface.co/gentian-hajdaraj",
+      "https://www.kaggle.com/gentianhajdaraj"
+    ]
   },
   "publisher": {
     "@type": "Organization",
@@ -37,6 +45,7 @@
   "codeRepository": "https://github.com/gentian-hajdaraj/ai-search-visibility-italia",
   "sameAs": [
     "https://telescop.it/research/ai-search-visibility-italia/",
-    "https://github.com/gentian-hajdaraj/ai-search-visibility-italia"
+    "https://github.com/gentian-hajdaraj/ai-search-visibility-italia",
+    "https://orcid.org/0009-0003-6955-460X"
   ]
 }
