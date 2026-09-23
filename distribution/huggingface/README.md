@@ -86,7 +86,11 @@ GitHub companion: https://github.com/gentian-hajdaraj/ai-search-visibility-itali
 
 **Gentian Hajdaraj — Telescop Research**
 
-https://gentian.it/
+- Website: https://gentian.it/
+- ORCID: https://orcid.org/0009-0003-6955-460X
+- GitHub: https://github.com/gentian-hajdaraj
+- Hugging Face: https://huggingface.co/gentian-hajdaraj
+- Kaggle: https://www.kaggle.com/gentianhajdaraj
 
 ## License
 
