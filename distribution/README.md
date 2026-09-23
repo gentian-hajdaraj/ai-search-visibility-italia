@@ -36,3 +36,19 @@ Use `orcid/README.md` to connect the DOI-backed research object to the author's 
 ## Rule
 
 Do not mint an additional DOI for a mirror unless there is a distinct new scholarly object that genuinely requires one. Mirrors should cite the existing v1.0 DOI.
+
+## Publication automation
+
+Two manual GitHub Actions workflows are provided:
+
+- `.github/workflows/publish-huggingface.yml`
+- `.github/workflows/publish-kaggle.yml`
+
+They intentionally require repository secrets and do not run automatically.
+
+Required secrets:
+
+- `HF_TOKEN` — Hugging Face user access token with write permission.
+- `KAGGLE_API_TOKEN` — Kaggle API token for the `gentianhajdaraj` account.
+
+The workflows publish only the verified public v1.0 assets and the platform-specific metadata maintained in this repository.
