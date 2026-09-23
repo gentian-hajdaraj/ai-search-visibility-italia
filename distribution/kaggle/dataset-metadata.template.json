@@ -1,8 +1,8 @@
 {
   "title": "AI Search Visibility in Italia 2026",
   "subtitle": "500 Italian queries across ChatGPT, Gemini and Google AI",
-  "description": "Public research dataset from Telescop Research examining how commercial brands and sources appear across ChatGPT, Gemini, Google AI Mode and Google AI Overview. The frozen design includes 500 Italian queries, four AI surfaces and three complete and separate runs, for 6,000 final observations. Canonical archived release: DOI 10.5281/zenodo.22640375. Research report: https://telescop.it/research/ai-search-visibility-italia/",
-  "id": "YOUR_KAGGLE_USERNAME/ai-search-visibility-italia",
+  "description": "Public research dataset from Telescop Research examining how commercial brands and sources appear across ChatGPT, Gemini, Google AI Mode and Google AI Overview. The frozen design includes 500 Italian queries, four AI surfaces and three complete and separate runs, for 6,000 final observations. Canonical archived release: DOI 10.5281/zenodo.22640375. Research report: https://telescop.it/research/ai-search-visibility-italia/ Author ORCID: https://orcid.org/0009-0003-6955-460X. GitHub companion: https://github.com/gentian-hajdaraj/ai-search-visibility-italia",
+  "id": "gentianhajdaraj/ai-search-visibility-italia",
   "licenses": [
     {
       "name": "CC-BY-4.0"
