@@ -2,6 +2,11 @@ name: Sync canonical public data
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/sync-public-data.yml"
 
 permissions:
   contents: write
@@ -12,7 +17,7 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Download canonical public assets
         shell: bash
@@ -29,8 +34,6 @@ jobs:
           curl -fL --retry 3 --connect-timeout 15             "$BASE/data/research-summary-v1.0.json"             -o "$OUT/research-summary-v1.0.json"
 
           curl -fL --retry 3 --connect-timeout 15             "$BASE/methodology/data/manifest.json"             -o "$OUT/manifest.json"
-
-          curl -fL --retry 3 --connect-timeout 15             "$BASE/methodology/data/SHA256SUMS.txt"             -o "$OUT/SHA256SUMS.txt"
 
       - name: Verify frozen panel
         shell: bash
@@ -84,6 +87,10 @@ jobs:
 
           `c39b8f8e201bad7718d8233d3c7563f7a115530fb55bd293a18982c7665ac214`
 
+          The original source checksums recorded during the research freeze are also documented in:
+
+          `data/original-SHA256SUMS.txt`
+
           The DOI-backed Zenodo record remains the canonical archival release.
           EOF
 
@@ -92,7 +99,9 @@ jobs:
         run: |
           set -euo pipefail
 
-          if git diff --quiet -- data/release-v1.0 &&              git ls-files --error-unmatch data/release-v1.0/panel-500.csv >/dev/null 2>&1; then
+          git add data/release-v1.0
+
+          if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
@@ -100,6 +109,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data/release-v1.0
           git commit -m "Mirror verified public research data v1.0"
           git push
