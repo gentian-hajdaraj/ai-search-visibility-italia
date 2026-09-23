@@ -6,7 +6,7 @@ This directory contains platform-specific publication metadata for distributing 
 
 - DOI: https://doi.org/10.5281/zenodo.22640375
 - Research report: https://telescop.it/research/ai-search-visibility-italia/
-- GitHub: https://github.com/wmaquantiq/ai-search-visibility-italia
+- GitHub: https://github.com/gentian-hajdaraj/ai-search-visibility-italia
 - License: CC BY 4.0
 - Author: Gentian Hajdaraj
 - Publisher: Telescop Research
