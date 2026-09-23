@@ -80,7 +80,7 @@ Research report: https://telescop.it/research/ai-search-visibility-italia/
 
 Methodology: https://telescop.it/research/ai-search-visibility-italia/methodology/
 
-GitHub companion: https://github.com/wmaquantiq/ai-search-visibility-italia
+GitHub companion: https://github.com/gentian-hajdaraj/ai-search-visibility-italia
 
 ## Author
 
