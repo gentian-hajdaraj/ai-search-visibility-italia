@@ -12,8 +12,9 @@ This directory is intentionally conservative: it does not fabricate, regenerate 
 - `original-SHA256SUMS.txt` — checksums recorded for the original frozen source artifacts.
 - `public-assets.json` — registry of canonical public URLs and known integrity metadata.
 - `panel-500.sha256` — the frozen panel checksum used throughout the published methodology.
+- `release-v1.0/` — populated by the verified GitHub Action with byte-for-byte public downloads.
 
-The original source artifacts remain canonical through the DOI-backed release and the public Telescop Research endpoints.
+The DOI-backed release remains the canonical archival reference.
 
 ## Frozen panel
 
@@ -27,7 +28,7 @@ Expected integrity:
 SHA-256 c39b8f8e201bad7718d8233d3c7563f7a115530fb55bd293a18982c7665ac214
 501 lines including header
 500 data rows
-42,866 bytes in the frozen source audit
+42,866 bytes
 ```
 
 Columns:
@@ -43,7 +44,7 @@ volume
 keyword_id
 ```
 
-## Fetch the public data
+## Fetch the public data locally
 
 From the repository root:
 
@@ -56,11 +57,12 @@ The script downloads:
 - `panel-500.csv`
 - `research-summary-v1.0.json`
 - `manifest.json`
-- `SHA256SUMS.txt`
 
-and rejects the frozen panel if its SHA-256 or line count does not match the published v1.0 values.
+and rejects the frozen panel if its SHA-256, line count or byte size does not match the published v1.0 values.
 
-Downloaded material is written to `data/downloaded-v1.0/` and ignored by Git by default.
+Original source checksums are documented in `original-SHA256SUMS.txt`.
+
+Downloaded local material is written to `data/downloaded-v1.0/` and ignored by Git by default.
 
 See [../docs/data-provenance.md](../docs/data-provenance.md).
 
