@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.22640375",
+  "name": "AI Search Visibility in Italia — Dataset e metodologia v1.0",
+  "description": "Dataset and methodology for the 2026 Telescop Research study of brand and source visibility across ChatGPT, Gemini, Google AI Overview and Google AI Mode. The frozen design contains 500 Italian queries, four AI surfaces and three complete and separate runs, for 6,000 final observations.",
+  "identifier": "https://doi.org/10.5281/zenodo.22640375",
+  "url": "https://zenodo.org/records/22640375",
+  "isBasedOn": "https://telescop.it/research/ai-search-visibility-italia/",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "version": "v1.0",
+  "inLanguage": "it",
+  "datePublished": "2026-09-05",
+  "temporalCoverage": "2026-09-03/2026-09-05",
+  "creator": {
+    "@type": "Person",
+    "name": "Gentian Hajdaraj",
+    "url": "https://gentian.it/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Telescop Research",
+    "url": "https://telescop.it/research/"
+  },
+  "measurementTechnique": "Frozen panel of 500 Italian queries observed across four AI surfaces in three complete and separate runs; 6,000 final observations.",
+  "keywords": [
+    "AI search visibility",
+    "generative search",
+    "ChatGPT",
+    "Gemini",
+    "Google AI Overview",
+    "Google AI Mode",
+    "brand visibility",
+    "recommendation share",
+    "citation share"
+  ]
+}
