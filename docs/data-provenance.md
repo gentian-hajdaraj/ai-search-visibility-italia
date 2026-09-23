@@ -8,7 +8,7 @@ The archival reference for v1.0 is:
 
 https://doi.org/10.5281/zenodo.22640375
 
-Zenodo guarantees a persistent identifier for the published record. The Telescop Research website exposes selected research assets directly for convenient machine access.
+Zenodo provides the persistent identifier for the published record. The Telescop Research website exposes selected research assets directly for convenient machine access.
 
 ## Verified frozen panel
 
@@ -45,6 +45,16 @@ https://telescop.it/research/ai-search-visibility-italia/data/research-summary-v
 
 This is the published JSON used by the public report for figures and headline result tables.
 
+## Methodology manifest
+
+https://telescop.it/research/ai-search-visibility-italia/methodology/data/manifest.json
+
+The original frozen-source checksums recorded during the research audit are preserved in:
+
+`data/original-SHA256SUMS.txt`
+
+The checksum list is intentionally stored in the repository rather than fetched from a public URL, because the checksum text file itself is not exposed at the same public Telescop path.
+
 ## Reproducible retrieval
 
 Run:
@@ -53,9 +63,9 @@ Run:
 bash scripts/fetch-public-data.sh
 ```
 
-The script downloads the public frozen panel, published result summary, methodology manifest and checksum file. It rejects the panel if its SHA-256 does not match the frozen v1.0 hash.
+The script downloads the public frozen panel, published result summary and methodology manifest. It rejects the panel if its SHA-256, line count or byte size does not match the frozen v1.0 values.
 
-Downloaded files are intentionally written under `data/downloaded-v1.0/` and are not committed automatically. This avoids silently replacing the canonical research object while keeping replication one command away.
+Downloaded files are intentionally written under `data/downloaded-v1.0/` and are not committed automatically.
 
 ## Why the panel is not reconstructed
 
