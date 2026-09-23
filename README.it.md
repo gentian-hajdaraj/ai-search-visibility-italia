@@ -36,6 +36,16 @@ English version: [README.md](README.md)
 
 Le superfici sono analizzate separatamente: la ricerca evita di ridurre esperienze diverse a un unico punteggio aggregato.
 
+## Risultati chiave
+
+- **Google AI Mode ha mostrato la maggiore visibilità spontanea dei brand commerciali:** 74,93% delle osservazioni del panel principale, rispetto al 64,10% di Gemini e al 54,93% di ChatGPT.
+- **Google AI Overview richiede un denominatore condizionale:** la visibilità spontanea dei brand è risultata pari al 50,49% su tutte le osservazioni inviate, ma al 67,25% quando la superficie AI Overview era effettivamente presente.
+- **I set di brand divergono in modo sostanziale tra le superfici:** la divergenza pairwise varia dal 55,88% al 62,20% nelle osservazioni comparabili.
+- **Gli ecosistemi delle fonti divergono ancora di più:** la divergenza delle fonti varia dall'82,77% al 91,27% tra ChatGPT, Gemini e Google AI Overview.
+- **L'universo dei brand visibili cambia per superficie:** sono state osservate 250 famiglie di brand commerciali spontanee uniche su ChatGPT, 368 su Gemini, 366 su Google AI Mode e 236 su Google AI Overview.
+
+I valori machine-readable alla base di questi risultati sono disponibili in [data/release-v1.0/research-summary-v1.0.json](data/release-v1.0/research-summary-v1.0.json).
+
 ## Disegno della ricerca
 
 Il panel è stato congelato prima dell’analisi ed è composto da:
