@@ -110,4 +110,9 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git commit -m "Mirror verified public research data v1.0"
-          git push
+
+          # The branch may have advanced while the workflow was running.
+          # Rebase the verified mirror commit onto the latest main before pushing.
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
