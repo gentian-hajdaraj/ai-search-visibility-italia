@@ -36,6 +36,20 @@ Italian version: [README.it.md](README.it.md)
 
 Each surface is treated separately. The study does **not** collapse all four experiences into a single score that hides platform-level differences.
 
+## Key findings
+
+- **Google AI Mode showed the highest unprompted commercial-brand visibility:** 74.93% of main-panel observations, versus 64.10% for Gemini and 54.93% for ChatGPT.
+- **Google AI Overview needs a conditional denominator:** unprompted brand visibility was 50.49% across all submitted observations but 67.25% when the AI Overview surface was actually present.
+- **Brand sets diverged materially between surfaces:** pairwise divergence ranged from 55.88% to 62.20% in comparable observations.
+- **Source ecosystems diverged even more strongly:** source divergence ranged from 82.77% to 91.27% across ChatGPT, Gemini and Google AI Overview.
+- **The visible brand universe differed by surface:** 250 unique unprompted commercial-brand families were observed on ChatGPT, 368 on Gemini, 366 on Google AI Mode and 236 on Google AI Overview.
+
+Machine-readable values behind these findings are available in `data/release-v1.0/research-summary-v1.0.json`.
+
+## Distribution packages
+
+Platform-specific publication metadata is maintained under `distribution/` for Hugging Face, Kaggle and ORCID/DataCite. Mirrors keep the DOI-backed v1.0 release as the canonical archival identity.
+
 ## Research question
 
 The study examines how generative search surfaces select and represent brands and sources when Italian users ask commercial and informational questions.
