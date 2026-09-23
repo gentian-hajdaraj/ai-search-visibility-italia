@@ -4,9 +4,14 @@
 
 `ai-search-visibility-italia`
 
-## Before publishing
+## Publishing account
 
-Copy `dataset-metadata.template.json` to `dataset-metadata.json` and replace `YOUR_KAGGLE_USERNAME` with the Kaggle username or organization slug that will own the dataset.
+Kaggle owner: **gentianhajdaraj**  
+Profile: https://www.kaggle.com/gentianhajdaraj
+
+`dataset-metadata.json` is already filled with the final dataset id:
+
+`gentianhajdaraj/ai-search-visibility-italia`
 
 The metadata uses Kaggle's supported `CC-BY-4.0` license identifier.
 
