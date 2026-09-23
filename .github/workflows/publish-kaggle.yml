@@ -2,6 +2,11 @@ name: Publish Kaggle dataset
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/publish-kaggle.yml"
 
 permissions:
   contents: read
