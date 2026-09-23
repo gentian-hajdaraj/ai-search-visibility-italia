@@ -4,6 +4,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22640375.svg)](https://doi.org/10.5281/zenodo.22640375)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0003--6955--460X-green?logo=orcid)](https://orcid.org/0009-0003-6955-460X)
 
 > **Core finding:** there is not a single, uniform “AI visibility”. Different AI surfaces can produce materially different landscapes of brands, recommendations and sources.
 
