@@ -1,0 +1,76 @@
+{
+  "title": "AI Search Visibility in Italia 2026",
+  "subtitle": "500 Italian queries across ChatGPT, Gemini and Google AI",
+  "description": "Public research dataset from Telescop Research examining how commercial brands and sources appear across ChatGPT, Gemini, Google AI Mode and Google AI Overview. The frozen design includes 500 Italian queries, four AI surfaces and three complete and separate runs, for 6,000 final observations. Canonical archived release: DOI 10.5281/zenodo.22640375. Research report: https://telescop.it/research/ai-search-visibility-italia/ Author ORCID: https://orcid.org/0009-0003-6955-460X. GitHub companion: https://github.com/gentian-hajdaraj/ai-search-visibility-italia",
+  "id": "gentianhajdaraj/ai-search-visibility-italia",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "keywords": [
+    "artificial intelligence",
+    "search",
+    "marketing",
+    "nlp",
+    "italy"
+  ],
+  "resources": [
+    {
+      "path": "panel-500.csv",
+      "description": "Frozen 500-query Italian research panel used in the 2026 study.",
+      "schema": {
+        "fields": [
+          {
+            "name": "panel_id",
+            "description": "Stable panel identifier.",
+            "type": "string"
+          },
+          {
+            "name": "panel_type",
+            "description": "nonbranded or control.",
+            "type": "string"
+          },
+          {
+            "name": "sector",
+            "description": "Research sector.",
+            "type": "string"
+          },
+          {
+            "name": "intent",
+            "description": "Research intent.",
+            "type": "string"
+          },
+          {
+            "name": "brand",
+            "description": "Seeded brand for control queries; empty otherwise.",
+            "type": "string"
+          },
+          {
+            "name": "query",
+            "description": "Italian-language query.",
+            "type": "string"
+          },
+          {
+            "name": "volume",
+            "description": "Search-volume field used during panel construction.",
+            "type": "integer"
+          },
+          {
+            "name": "keyword_id",
+            "description": "Internal source keyword identifier.",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "path": "research-summary-v1.0.json",
+      "description": "Machine-readable aggregate results used by the public research report."
+    },
+    {
+      "path": "manifest.json",
+      "description": "Frozen research panel methodology and quota manifest."
+    }
+  ]
+}
