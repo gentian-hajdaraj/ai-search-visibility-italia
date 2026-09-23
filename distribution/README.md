@@ -9,6 +9,10 @@ This directory contains platform-specific publication metadata for distributing 
 - GitHub: https://github.com/gentian-hajdaraj/ai-search-visibility-italia
 - License: CC BY 4.0
 - Author: Gentian Hajdaraj
+- ORCID: https://orcid.org/0009-0003-6955-460X
+- GitHub author: https://github.com/gentian-hajdaraj
+- Hugging Face: https://huggingface.co/gentian-hajdaraj
+- Kaggle: https://www.kaggle.com/gentianhajdaraj
 - Publisher: Telescop Research
 
 ## Targets
@@ -21,7 +25,7 @@ Recommended dataset slug: `ai-search-visibility-italia`.
 
 ### Kaggle
 
-Use `kaggle/dataset-metadata.template.json` after replacing `YOUR_KAGGLE_USERNAME`.
+Use the ready-to-publish `kaggle/dataset-metadata.json` for the `gentianhajdaraj` account.
 
 Recommended dataset slug: `ai-search-visibility-italia`.
 
