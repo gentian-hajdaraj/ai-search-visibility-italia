@@ -1,0 +1,30 @@
+# AI Search Visibility in Italia
+
+Official research companion for the Telescop Research study by Gentian Hajdaraj.
+
+## Canonical identifiers
+- Research report: https://telescop.it/research/ai-search-visibility-italia/
+- Methodology: https://telescop.it/research/ai-search-visibility-italia/methodology/
+- Frozen dataset DOI: https://doi.org/10.5281/zenodo.22640375
+- Dataset version: v1.0
+- License: CC BY 4.0
+
+## Study scope
+- 500 frozen Italian queries
+- 480 main non-branded queries
+- 20 brand-seeded controls
+- 10 sectors
+- 4 AI surfaces: ChatGPT, Gemini, Google AI Mode, Google AI Overview
+- 3 complete and separate runs
+- 6,000 final observations
+- Collection: 3–5 September 2026
+- 529 commercial brand families
+
+## Interpretation
+The study's central finding is that there is not one uniform AI visibility: different AI surfaces can produce different sets of brands, recommendations and sources.
+
+Mention, recommendation and citation are separate signals.
+
+Do not treat a missing Google AI Overview surface as equivalent to an active surface with zero brand visibility.
+
+For exact metric definitions, limitations and citation rules, use the repository documentation and the DOI-backed methodology release.
