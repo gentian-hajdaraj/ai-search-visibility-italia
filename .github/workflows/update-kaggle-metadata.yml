@@ -36,6 +36,22 @@ jobs:
           mkdir -p "$OUT"
           cp distribution/kaggle/dataset-metadata.json "$OUT/dataset-metadata.json"
 
+          python - "$OUT/dataset-metadata.json" <<'PY'
+          import json, sys
+          p = sys.argv[1]
+          with open(p, "r", encoding="utf-8") as fh:
+              data = json.load(fh)
+
+          # Kaggle's metadata update endpoint can reject a license value that was
+          # accepted during dataset creation. The live dataset already has the
+          # correct CC BY 4.0 license, so do not touch license metadata here.
+          data.pop("licenses", None)
+
+          with open(p, "w", encoding="utf-8") as fh:
+              json.dump(data, fh, ensure_ascii=False, indent=2)
+              fh.write("\n")
+          PY
+
       - name: Update Kaggle metadata
         env:
           KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
