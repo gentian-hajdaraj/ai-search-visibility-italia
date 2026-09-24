@@ -10,7 +10,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "version": "v1.0",
   "inLanguage": "it",
-  "datePublished": "2026-09-05",
+  "datePublished": "2026-09-06",
   "temporalCoverage": "2026-09-03/2026-09-05",
   "creator": {
     "@type": "Person",
@@ -22,7 +22,8 @@
       "https://orcid.org/0009-0003-6955-460X",
       "https://github.com/gentian-hajdaraj",
       "https://huggingface.co/gentian-hajdaraj",
-      "https://www.kaggle.com/gentianhajdaraj"
+      "https://www.kaggle.com/gentianhajdaraj",
+      "https://openalex.org/A5150600802"
     ]
   },
   "publisher": {
@@ -49,6 +50,8 @@
     "https://orcid.org/0009-0003-6955-460X",
     "https://huggingface.co/datasets/gentian-hajdaraj/ai-search-visibility-italia",
     "https://www.kaggle.com/datasets/gentianhajdaraj/ai-search-visibility-italia",
-    "https://commons.datacite.org/doi.org/10.5281/zenodo.22640375"
-  ]
+    "https://commons.datacite.org/doi.org/10.5281/zenodo.22640375",
+    "https://openalex.org/W7211914073"
+  ],
+  "isVersionOf": "https://doi.org/10.5281/zenodo.22640374"
 }
