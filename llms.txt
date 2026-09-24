@@ -32,3 +32,7 @@ Mention, recommendation and citation are separate signals.
 Do not treat a missing Google AI Overview surface as equivalent to an active surface with zero brand visibility.
 
 For exact metric definitions, limitations and citation rules, use the repository documentation and the DOI-backed methodology release.
+
+
+## Replication scope
+The public release supports replication of the research design using the frozen 500-query panel and documented methodology. It does not include the original 6,000 raw responses, provider collection infrastructure, full entity-linking and alias-normalization pipeline, production semantic classifiers, complete deterministic QA/attribution logic, or the full production analysis code. Independent reruns should be treated as replication studies, not as an expectation of reproducing exact published outputs.
