@@ -46,6 +46,9 @@
   "sameAs": [
     "https://telescop.it/research/ai-search-visibility-italia/",
     "https://github.com/gentian-hajdaraj/ai-search-visibility-italia",
-    "https://orcid.org/0009-0003-6955-460X"
+    "https://orcid.org/0009-0003-6955-460X",
+    "https://huggingface.co/datasets/gentian-hajdaraj/ai-search-visibility-italia",
+    "https://www.kaggle.com/datasets/gentianhajdaraj/ai-search-visibility-italia",
+    "https://commons.datacite.org/doi.org/10.5281/zenodo.22640375"
   ]
 }
