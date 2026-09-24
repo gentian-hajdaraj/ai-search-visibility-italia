@@ -84,7 +84,25 @@ Un brand può quindi essere nominato senza essere raccomandato, raccomandato sen
 
 Vedi [docs/metrics.md](docs/metrics.md).
 
-## Dati e riproducibilità
+## Perimetro di replicazione
+
+Questa release pubblica è progettata per consentire la **replicazione indipendente del disegno di ricerca**, non la riproduzione byte-per-byte della pipeline produttiva interna di Telescop.
+
+I materiali pubblici includono il panel congelato di 500 query, il manifest del panel, la sintesi metodologica, le definizioni delle metriche, i controlli di integrità e i risultati aggregati pubblicati. Sono sufficienti per permettere a un altro ricercatore di ripetere lo stesso disegno sperimentale sulle quattro superfici AI e confrontare i risultati nel tempo.
+
+La release **non include**:
+
+- le 6.000 risposte raw originali;
+- l'infrastruttura/provider runtime usata per la raccolta;
+- la pipeline completa di entity extraction ed entity linking;
+- il registro interno di alias e le regole complete di normalizzazione;
+- prompt/classificatori di produzione usati nel processing semantico;
+- la logica completa di QA deterministica e attribution;
+- il codice di analisi produttivo completo usato per derivare tutte le metriche pubblicate.
+
+Poiché i sistemi generativi cambiano nel tempo e la pipeline produttiva completa non è pubblica, un rerun indipendente va considerato come **studio di replicazione**, non come tentativo di riprodurre esattamente gli output pubblicati.
+
+## Dati e replicazione
 
 Il **dataset canonico e la metodologia v1.0** sono depositati su Zenodo:
 
