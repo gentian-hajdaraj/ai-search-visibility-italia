@@ -142,7 +142,15 @@ In the 2026 release, aggregate source metrics include:
 
 Google AI Mode is excluded from certain aggregate source analyses because citation metadata exposed by the provider was discontinuous across runs.
 
-## 11. Versioning principle
+## 11. Replication scope
+
+The public release supports independent replication of the study design using the same frozen panel and documented analytical concepts. It does not expose the complete production collection and analysis stack.
+
+Not publicly released are the original 6,000 raw responses, provider runtime/collection infrastructure, the full entity-linking pipeline, internal alias registries, production semantic-classification prompts, complete deterministic QA/attribution logic and the full production analysis code.
+
+Independent reruns should therefore be interpreted as replication studies. Exact numerical reproduction is not expected because AI surfaces change over time and part of the production pipeline remains internal.
+
+## 12. Versioning principle
 
 Frozen datasets, panel hashes, analysis scripts, aliases, classification rules and metric definitions should be versioned together.
 
