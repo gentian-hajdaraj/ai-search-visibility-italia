@@ -200,6 +200,8 @@ Telescop Research
 - GitHub: https://github.com/gentian-hajdaraj
 - Hugging Face: https://huggingface.co/gentian-hajdaraj
 - Kaggle: https://www.kaggle.com/gentianhajdaraj
+- OpenAlex work: https://openalex.org/W7211914073
+- OpenAlex author: https://openalex.org/A5150600802
 - Research/media contact: research@telescop.it
 
 ## License
