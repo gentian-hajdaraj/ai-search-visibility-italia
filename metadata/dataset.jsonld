@@ -51,7 +51,8 @@
     "https://huggingface.co/datasets/gentian-hajdaraj/ai-search-visibility-italia",
     "https://www.kaggle.com/datasets/gentianhajdaraj/ai-search-visibility-italia",
     "https://commons.datacite.org/doi.org/10.5281/zenodo.22640375",
-    "https://openalex.org/W7211914073"
+    "https://openalex.org/W7211914073",
+    "https://explore.openaire.eu/search/dataset?pid=10.5281%2Fzenodo.22640375"
   ],
   "isVersionOf": "https://doi.org/10.5281/zenodo.22640374"
 }
