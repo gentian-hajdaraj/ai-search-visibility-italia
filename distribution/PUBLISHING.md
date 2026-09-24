@@ -93,3 +93,11 @@ Zenodo also exposes the concept DOI for all versions:
 The version DOI is the canonical identifier for v1.0. The dataset publication date exposed by Zenodo/OpenAlex is **2026-09-06**; the research report itself may have a different editorial publication date.
 
 If the creator ORCID is missing from DataCite creator metadata, update the creator metadata in Zenodo rather than creating a second DOI.
+
+## OpenAIRE
+
+The DOI-specific dataset record is discoverable at:
+
+`https://explore.openaire.eu/search/dataset?pid=10.5281%2Fzenodo.22640375`
+
+Keep the Zenodo version DOI `10.5281/zenodo.22640375` as the canonical scholarly identifier.
