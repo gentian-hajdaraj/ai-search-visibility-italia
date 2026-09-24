@@ -1,0 +1,14 @@
+# STEP 1 — create the author item first.
+# Paste into https://quickstatements.toolforge.org/
+# After creation, copy the new QID and use it in dataset-step-2.template.quickstatements.txt.
+
+CREATE
+LAST|Len|"Gentian Hajdaraj"
+LAST|Lit|"Gentian Hajdaraj"
+LAST|Den|"Italian digital entrepreneur and researcher"
+LAST|Dit|"imprenditore digitale e autore di ricerche sull'AI Search"
+LAST|P31|Q5|S854|"https://gentian.it/"|S813|+2026-09-24T00:00:00Z/11
+LAST|P496|"0009-0003-6955-460X"|S854|"https://orcid.org/0009-0003-6955-460X"|S813|+2026-09-24T00:00:00Z/11
+LAST|P856|"https://gentian.it/"|S854|"https://gentian.it/"|S813|+2026-09-24T00:00:00Z/11
+LAST|P2037|"gentian-hajdaraj"|S854|"https://github.com/gentian-hajdaraj"|S813|+2026-09-24T00:00:00Z/11
+LAST|P6634|"gentian-hajdaraj"|S854|"https://www.linkedin.com/in/gentian-hajdaraj/"|S813|+2026-09-24T00:00:00Z/11
