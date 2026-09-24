@@ -62,3 +62,21 @@ All mirrors must preserve:
 - publisher: `Telescop Research`
 
 Mirrors must not mint a replacement DOI for the same frozen v1.0 research object.
+
+## Wikidata / Scholia
+
+Use the two-step package under `distribution/wikidata/`.
+
+Create/search the author item first, then create the dataset item linked by `author (P50)`. Do not create duplicates.
+
+## OpenAlex
+
+OpenAlex harvests works from DataCite and Zenodo. No separate submission should be made. Verify the DOI periodically and add the OpenAlex ID to metadata only after it resolves to the correct work.
+
+## DataCite Commons
+
+The canonical DOI can be checked at:
+
+`https://commons.datacite.org/doi.org/10.5281/zenodo.22640375`
+
+If the creator ORCID is missing there, update the creator metadata in Zenodo rather than creating a second DOI.
