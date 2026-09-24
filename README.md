@@ -103,7 +103,25 @@ A brand can therefore be mentioned without being recommended, recommended withou
 
 See [docs/metrics.md](docs/metrics.md) for the metric glossary.
 
-## Reproducibility and data
+## Replication scope
+
+This public release is designed to support **independent replication of the research design**, not byte-for-byte reproduction of Telescop's internal production pipeline.
+
+Public materials include the frozen 500-query panel, panel manifest, methodology summary, metric definitions, integrity checks and aggregate published results. These are sufficient for another researcher to rerun the same experimental design on the same four AI surfaces and compare outcomes over time.
+
+The release does **not** include:
+
+- the original 6,000 raw responses;
+- the provider collection/runtime infrastructure used during the study;
+- the complete entity-extraction and entity-linking pipeline;
+- the internal alias registry and normalization rules;
+- production prompts/classifiers used in semantic processing;
+- the complete deterministic QA and attribution logic;
+- the full production analysis code used to derive every published metric.
+
+Because generative systems are time-sensitive and the full production pipeline is not public, an independent rerun should be treated as a **replication study**, not as an expectation of reproducing the exact published outputs.
+
+## Replication and data
 
 The **canonical dataset and methodology release** is archived on Zenodo:
 
