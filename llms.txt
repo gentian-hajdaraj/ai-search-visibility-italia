@@ -11,6 +11,8 @@ Official research companion for the Telescop Research study by Gentian Hajdaraj.
 - Hugging Face author: https://huggingface.co/gentian-hajdaraj
 - Kaggle author: https://www.kaggle.com/gentianhajdaraj
 - Dataset version: v1.0
+- OpenAlex work: https://openalex.org/W7211914073
+- OpenAlex author: https://openalex.org/A5150600802
 - License: CC BY 4.0
 
 ## Study scope
