@@ -28,6 +28,7 @@ This file tracks the public discovery graph for **AI Search Visibility in Italia
 | Hugging Face | Live | Public dataset mirror |
 | Kaggle | Live | Public dataset mirror |
 | Google Dataset Search | Discovery-ready | Dataset/DataCatalog/DataDownload structured data deployed; crawl/indexing monitoring continues |
+| ResearchGate | Pending review | Account verification request submitted on 2026-09-24 with Zenodo/DOI evidence |
 
 ## OpenAlex curation
 
@@ -48,4 +49,5 @@ The author profile claim for `A5150600802` was submitted on 2026-09-24. The prof
 1. Wait for Wikidata contributors to create/review the requested author and dataset items.
 2. After Wikidata QIDs exist, verify Scholia author/work views.
 3. Re-check OpenAlex after its next metadata refresh and resolve the concept/version duplicate if still counted as two works.
-4. Monitor Google Search Console for first impressions on the research URLs.
+4. Wait for ResearchGate to review the account request; do not create a duplicate dataset record meanwhile.
+5. Monitor Google Search Console for first impressions on the research URLs.
