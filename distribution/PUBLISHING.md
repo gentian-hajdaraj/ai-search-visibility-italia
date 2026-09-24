@@ -71,12 +71,25 @@ Create/search the author item first, then create the dataset item linked by `aut
 
 ## OpenAlex
 
-OpenAlex harvests works from DataCite and Zenodo. No separate submission should be made. Verify the DOI periodically and add the OpenAlex ID to metadata only after it resolves to the correct work.
+The DOI is indexed by OpenAlex.
+
+- Work: `W7211914073` — https://openalex.org/W7211914073
+- Author: `A5150600802` — https://openalex.org/A5150600802
+
+OpenAlex currently resolves the dataset correctly as a 2026 Italian-language dataset sourced from Zenodo/DataCite. The authorship is attached to Gentian Hajdaraj, but the OpenAlex author profile currently has `orcid: null` and the work authorship has `raw_orcid: null`.
+
+The canonical creator ORCID is `0009-0003-6955-460X`. Keep the ORCID in Zenodo/DataCite creator metadata and, if needed, claim the OpenAlex author profile and set the primary ORCID through OpenAlex curation.
 
 ## DataCite Commons
 
-The canonical DOI can be checked at:
+The version DOI is live in DataCite Commons:
 
 `https://commons.datacite.org/doi.org/10.5281/zenodo.22640375`
 
-If the creator ORCID is missing there, update the creator metadata in Zenodo rather than creating a second DOI.
+Zenodo also exposes the concept DOI for all versions:
+
+`10.5281/zenodo.22640374`
+
+The version DOI is the canonical identifier for v1.0. The dataset publication date exposed by Zenodo/OpenAlex is **2026-09-06**; the research report itself may have a different editorial publication date.
+
+If the creator ORCID is missing from DataCite creator metadata, update the creator metadata in Zenodo rather than creating a second DOI.
