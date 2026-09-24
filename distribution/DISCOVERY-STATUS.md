@@ -20,7 +20,7 @@ This file tracks the public discovery graph for **AI Search Visibility in Italia
 | Zenodo | Live | DOI-backed archival release; creator is linked to ORCID |
 | DataCite Commons | Live | Version DOI resolves as a Dataset |
 | OpenAlex | Live | Work and author profiles exist; ORCID propagation/curation is pending |
-| OpenAIRE | Indexed | Zenodo reports the record as indexed in OpenAIRE |
+| OpenAIRE | Live | DOI-specific dataset record confirmed: `https://explore.openaire.eu/search/dataset?pid=10.5281%2Fzenodo.22640375` |
 | ORCID | Linked | Version DOI `10.5281/zenodo.22640375` added to the public Works section on 2026-09-24 |
 | Wikidata | Requested | Author and dataset item requests submitted on 2026-09-24 |
 | Scholia | Pending | Depends on Wikidata author/work items |
@@ -48,5 +48,4 @@ The author profile claim for `A5150600802` was submitted on 2026-09-24. The prof
 1. Wait for Wikidata contributors to create/review the requested author and dataset items.
 2. After Wikidata QIDs exist, verify Scholia author/work views.
 3. Re-check OpenAlex after its next metadata refresh and resolve the concept/version duplicate if still counted as two works.
-4. Verify the OpenAIRE public record by DOI and retain its canonical URL if exposed.
-5. Monitor Google Search Console for first impressions on the research URLs.
+4. Monitor Google Search Console for first impressions on the research URLs.
