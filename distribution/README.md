@@ -39,7 +39,10 @@ Use `wikidata/README.md` and the two-step QuickStatements package to create the 
 
 ### OpenAlex
 
-No direct submission is required. OpenAlex harvests DataCite and Zenodo records; the DOI should flow into OpenAlex after source ingestion. Verify by DOI before adding any OpenAlex ID back into repository metadata.
+Indexed work: https://openalex.org/W7211914073  
+Author profile: https://openalex.org/A5150600802
+
+The work is already harvested from DataCite/Zenodo. The author ORCID should resolve to `0009-0003-6955-460X`; OpenAlex may require a metadata refresh or author-profile curation before that identifier appears there.
 
 ## Rule
 
