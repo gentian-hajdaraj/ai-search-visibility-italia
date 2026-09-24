@@ -1,0 +1,20 @@
+# STEP 2 — replace Q_AUTHOR with the QID created in step 1.
+# Example: replace every Q_AUTHOR with Q123456789.
+# Paste the edited batch into https://quickstatements.toolforge.org/
+
+CREATE
+LAST|Len|"AI Search Visibility in Italia"
+LAST|Lit|"AI Search Visibility in Italia"
+LAST|Den|"2026 research dataset on brand and source visibility across generative search surfaces in Italy"
+LAST|Dit|"dataset di ricerca 2026 sulla visibilità di brand e fonti nelle superfici di ricerca generativa in Italia"
+LAST|P31|Q1172284|S854|"https://doi.org/10.5281/zenodo.22640375"|S813|+2026-09-24T00:00:00Z/11
+LAST|P1476|it:"AI Search Visibility in Italia — Dataset e metodologia v1.0"|S854|"https://doi.org/10.5281/zenodo.22640375"|S813|+2026-09-24T00:00:00Z/11
+LAST|P50|Q_AUTHOR|S854|"https://doi.org/10.5281/zenodo.22640375"|S813|+2026-09-24T00:00:00Z/11
+LAST|P577|+2026-09-05T00:00:00Z/11|S854|"https://doi.org/10.5281/zenodo.22640375"|S813|+2026-09-24T00:00:00Z/11
+LAST|P356|"10.5281/ZENODO.22640375"|S854|"https://doi.org/10.5281/zenodo.22640375"|S813|+2026-09-24T00:00:00Z/11
+LAST|P407|Q652|S854|"https://doi.org/10.5281/zenodo.22640375"|S813|+2026-09-24T00:00:00Z/11
+LAST|P275|Q20007257|S854|"https://doi.org/10.5281/zenodo.22640375"|S813|+2026-09-24T00:00:00Z/11
+LAST|P953|"https://telescop.it/research/ai-search-visibility-italia/"|S854|"https://telescop.it/research/ai-search-visibility-italia/"|S813|+2026-09-24T00:00:00Z/11
+LAST|P1325|"https://telescop.it/research/ai-search-visibility-italia/methodology/data/panel-500.csv"|S854|"https://telescop.it/research/ai-search-visibility-italia/methodology/"|S813|+2026-09-24T00:00:00Z/11
+LAST|P921|Q117246174|S854|"https://telescop.it/research/ai-search-visibility-italia/"|S813|+2026-09-24T00:00:00Z/11
+LAST|P921|Q4182287|S854|"https://telescop.it/research/ai-search-visibility-italia/"|S813|+2026-09-24T00:00:00Z/11
