@@ -33,6 +33,14 @@ Recommended dataset slug: `ai-search-visibility-italia`.
 
 Use `orcid/README.md` to connect the DOI-backed research object to the author's ORCID record.
 
+### Wikidata / Scholia
+
+Use `wikidata/README.md` and the two-step QuickStatements package to create the author/work graph without duplicating the DOI-backed research object.
+
+### OpenAlex
+
+No direct submission is required. OpenAlex harvests DataCite and Zenodo records; the DOI should flow into OpenAlex after source ingestion. Verify by DOI before adding any OpenAlex ID back into repository metadata.
+
 ## Rule
 
 Do not mint an additional DOI for a mirror unless there is a distinct new scholarly object that genuinely requires one. Mirrors should cite the existing v1.0 DOI.
