@@ -147,3 +147,7 @@ https://doi.org/10.5281/zenodo.22640375
 Salvo diversa indicazione, documentazione della ricerca e materiali dataset rilasciati pubblicamente sono distribuiti con licenza **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
 
 Vedi [LICENSE.md](LICENSE.md).
+
+## Strumento pubblico sperimentale: Visibility Benchmark Lite
+
+[Visibility Benchmark Lite](tools/visibility-benchmark-lite/README.md) è uno strumento **indipendente e utilizzabile nel browser** che analizza osservazioni di AI Search già annotate, distinguendo la presenza della superficie da menzioni, raccomandazioni e citazioni. Il CSV dimostrativo è sintetico: lo strumento **non** riproduce i processi proprietari di Telescop né i dati e i risultati della ricerca 2026.

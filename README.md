@@ -209,3 +209,7 @@ Telescop Research
 Unless otherwise noted, the research documentation and released dataset materials are distributed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
 
 See [LICENSE.md](LICENSE.md).
+
+## Experimental public tool: Visibility Benchmark Lite
+
+[Visibility Benchmark Lite](tools/visibility-benchmark-lite/README.md) is a **browser-only, dependency-free educational explorer** for user-provided **pre-annotated** AI-search observations. It distinguishes surface absence from missing brand presence and keeps mentions, recommendations and citations separate. The bundled example uses fictional data; the tool does **not** reproduce Telescop's private pipeline or the 2026 research results.

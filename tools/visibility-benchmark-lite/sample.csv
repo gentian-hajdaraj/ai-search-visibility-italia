@@ -1,0 +1,16 @@
+query_id,run_id,surface,surface_present,query_type,mentions,recommendations,citations
+q1,r1,ChatGPT,1,main,Alpha|Beta,Alpha,alpha.example|publisher.example
+q1,r1,Gemini,1,main,Beta,Beta,beta.example
+q1,r1,Google AI Overview,0,main,,,
+q2,r1,ChatGPT,1,main,Beta,,publisher.example
+q2,r1,Gemini,1,main,Alpha,Alpha,alpha.example
+q2,r1,Google AI Overview,1,main,Alpha,Alpha,alpha.example
+q1,r2,ChatGPT,1,main,Alpha,Alpha,alpha.example
+q1,r2,Gemini,1,main,Beta,,beta.example
+q1,r2,Google AI Overview,1,main,Beta,Beta,publisher.example
+q2,r2,ChatGPT,1,main,,,
+q2,r2,Gemini,1,main,Alpha,Alpha,alpha.example
+q2,r2,Google AI Overview,0,main,,,
+seed,r1,ChatGPT,1,control,Alpha,Alpha,alpha.example
+seed,r1,Gemini,1,control,Alpha,,alpha.example
+seed,r1,Google AI Overview,1,control,Alpha,Alpha,alpha.example

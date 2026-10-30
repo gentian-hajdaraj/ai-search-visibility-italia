@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Visibility Benchmark Lite · AI Search research tools</title>
+<style>
+:root{font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif;color:#edf4fa;background:#0d1826}
+*{box-sizing:border-box}body{margin:0}main{max-width:1100px;margin:auto;padding:34px 20px 75px}
+h1{font-size:clamp(30px,5vw,52px);line-height:1.1;margin:8px 0 16px;letter-spacing:-.04em}
+h2{font-size:22px;margin:0 0 12px}h3{font-size:17px;margin:19px 0 8px}
+p{margin:7px 0 14px}.muted,small{color:#a9c1d3}.kicker{color:#58d1ca;text-transform:uppercase;letter-spacing:.12em;font-size:13px;font-weight:800}
+a{color:#65dcd8}section{background:#15273a;border:1px solid #31536d;border-radius:16px;padding:24px;margin:18px 0}
+.hero{background:none;border:0;padding:35px 0 8px}.hero p{max-width:720px}
+.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+button,.filelabel{cursor:pointer;background:#54d5c8;color:#0b2330;border:1px solid #55d5cb;border-radius:10px;padding:11px 16px;font:inherit;font-weight:700}
+.alt{background:#243e54;color:#f1f7fc;border-color:#42627a}button:disabled{opacity:.45;cursor:not-allowed}input[type=file]{display:none}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.stat{background:#1e354b;border:1px solid #38556b;border-radius:12px;padding:18px}.stat b{display:block;font-size:30px;font-variant-numeric:tabular-nums}.stat span{font-size:14px;color:#b7c9da}
+.table{overflow:auto}table{border-collapse:collapse;width:100%;min-width:800px;font-variant-numeric:tabular-nums}
+td,th{text-align:left;padding:13px 11px;border-bottom:1px solid #34516a;font-size:14px;white-space:nowrap}th{color:#aaccdc}tr:last-child td{border-bottom:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.card{background:#1e354b;border:1px solid #36566d;border-radius:12px;padding:14px;min-width:0}
+ol{padding-left:24px}li{overflow-wrap:anywhere;margin:6px 0}
+.note{border-left:3px solid #5dd3cb;padding:14px;background:#20384a;color:#dcecf4}
+#error{color:#ffc4bb;white-space:pre-wrap}#results[hidden]{display:none}#status{min-height:20px}
+footer{color:#b2c9d6;margin-top:30px;font-size:14px}
+@media(max-width:720px){.stats,.grid{grid-template-columns:1fr}section{padding:17px}}
+</style></head><body><main>
+<div class="kicker">Open source · Runs locally · No tracking</div>
+<div class="hero"><h1>Visibility Benchmark <span style="color:#58d1ca">Lite</span></h1>
+<p class="muted">A small, transparent explorer for pre-annotated AI search observations. Analyze brand mentions, recommendations and source citations without conflating absent AI surfaces with empty responses.</p></div>
+<section><h2>1. Load observations</h2><p class="muted">All files stay on your device; there are no network requests, API keys or external dependencies.</p>
+<div class="controls"><button id="demo">Try synthetic demo</button><label class="filelabel alt" for="file">Open your CSV</label><input type="file" id="file" accept=".csv,text/csv"><button id="export" class="alt" disabled>Export JSON report</button></div><p id="status" class="muted" role="status"></p><p id="error" role="alert"></p></section>
+<div id="results" hidden>
+<section><h2>2. Dataset overview</h2><div class="stats" id="stats"></div></section>
+<section><h2>3. Surface comparison</h2><p class="muted">All rates describe observations, not people or total search demand. Controls do not enter spontaneous-mention denominators.</p>
+<div class="table"><table><thead><tr><th>Surface</th><th>Surface presence (all)</th><th>Any brand (all main)</th><th>Any brand (active main)</th><th>Any recommendation (active main)</th><th>Any citation (active main)</th></tr></thead><tbody id="tbody"></tbody></table></div>
+<small>“All main” includes absent AI surfaces; “active main” excludes them. An unavailable denominator is displayed as —.</small></section>
+<section><h2>4. Top entities by surface</h2><div id="entitylists"></div></section>
+</div>
+<section><h2>How to interpret</h2><p class="note">This tool does not scrape AI platforms or extract entities from natural language. It needs user-supplied structured annotations. The demo is fictional and is not the published Telescop dataset.</p>
+<p class="muted">Each row represents one query × one run × one surface. Entries in the mentions, recommendations and citations columns use | to separate values. Entity counts are case-insensitive exact labels counted once per observation.</p>
+<p><a href="README.md">CSV data contract</a> · <a href="sample.csv">Synthetic sample CSV</a> · <a href="https://github.com/gentian-hajdaraj/ai-search-visibility-italia">Original research</a></p></section>
+<footer>Independent methodological demonstration · No data collection · <a href="LICENSE">MIT license for this tool</a></footer>
+</main>
+<script type="text/plain" id="demodata">query_id,run_id,surface,surface_present,query_type,mentions,recommendations,citations
+q1,r1,ChatGPT,1,main,Alpha|Beta,Alpha,alpha.example|publisher.example
+q1,r1,Gemini,1,main,Beta,Beta,beta.example
+q1,r1,Google AI Overview,0,main,,,
+q2,r1,ChatGPT,1,main,Beta,,publisher.example
+q2,r1,Gemini,1,main,Alpha,Alpha,alpha.example
+q2,r1,Google AI Overview,1,main,Alpha,Alpha,alpha.example
+q1,r2,ChatGPT,1,main,Alpha,Alpha,alpha.example
+q1,r2,Gemini,1,main,Beta,,beta.example
+q1,r2,Google AI Overview,1,main,Beta,Beta,publisher.example
+q2,r2,ChatGPT,1,main,,,
+q2,r2,Gemini,1,main,Alpha,Alpha,alpha.example
+q2,r2,Google AI Overview,0,main,,,
+seed,r1,ChatGPT,1,control,Alpha,Alpha,alpha.example
+seed,r1,Gemini,1,control,Alpha,,alpha.example
+seed,r1,Google AI Overview,1,control,Alpha,Alpha,alpha.example
+</script>
+<script src="benchmark-core.js"></script>
+<script>
+(function(){
+"use strict";
+var $=id=>document.getElementById(id),api=window.VisibilityBenchmark,latest;
+function txt(tag,value,parent){var e=document.createElement(tag);if(value!==undefined)e.textContent=String(value);if(parent)parent.appendChild(e);return e;}
+function clear(e){while(e.firstChild)e.removeChild(e.firstChild);}
+function rate(x){return x===null?"—":x.toFixed(2)+"%";}
+function stat(title,value){var card=txt("div",undefined,$("stats"));card.className="stat";txt("b",value,card);txt("span",title,card);}
+function render(result){
+latest=result;$("results").hidden=false;$("export").disabled=false;
+clear($("stats"));stat("Observations",result.total_observations);stat("AI surfaces",result.surfaces.length);stat("Main observations",result.surfaces.reduce((n,s)=>n+s.main_observations,0));
+clear($("tbody"));clear($("entitylists"));
+result.surfaces.forEach(function(s){
+var row=txt("tr",undefined,$("tbody"));
+[s.surface,rate(s.presence_pct)+" ("+s.surface_present+"/"+s.observations+")",rate(s.brand_any_all_pct)+" ("+s.main_observations+")",rate(s.brand_any_active_pct)+" ("+s.main_active+")",rate(s.recommendation_any_active_pct),rate(s.citation_any_active_pct)].forEach(v=>txt("td",v,row));
+txt("h3",s.surface,$("entitylists"));
+var grid=txt("div",undefined,$("entitylists"));grid.className="grid";
+[["Mentioned brands",s.top_mentioned_brands],["Recommended brands",s.top_recommended_brands],["Cited domains",s.top_cited_domains]].forEach(function(pair){
+ var card=txt("article",undefined,grid);card.className="card";txt("strong",pair[0],card);
+ if(!pair[1].length)txt("p","No entries",card);
+ else {var list=txt("ol",undefined,card);pair[1].forEach(x=>txt("li",x.name+" — "+x.observations+" obs.",list));}
+});
+});
+}
+function load(data,name){
+ $("error").textContent="";$("status").textContent="";
+ try{render(api.analyze(api.parseCSV(data)));$("status").textContent="Loaded "+name+" successfully.";}
+ catch(e){latest=null;$("results").hidden=true;$("export").disabled=true;$("error").textContent=e.message;}
+}
+$("demo").addEventListener("click",()=>load($("demodata").textContent.trim(),"synthetic example"));
+$("file").addEventListener("change",function(ev){var f=ev.target.files[0];if(f)f.text().then(t=>load(t,f.name)).catch(e=>$("error").textContent=e.message);});
+$("export").addEventListener("click",function(){
+ if(!latest)return;var b=new Blob([JSON.stringify(latest,null,2)+"\n"],{type:"application/json"}),url=URL.createObjectURL(b),a=document.createElement("a");
+ a.href=url;a.download="visibility-summary.json";a.click();setTimeout(()=>URL.revokeObjectURL(url),1200);
+});
+$("demo").click();
+})();
+</script></body></html>
